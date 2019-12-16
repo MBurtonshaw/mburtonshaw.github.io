@@ -1,9 +1,18 @@
+/*==============================================================================================================================================
+                                                            MAIN DESIGN
+==============================================================================================================================================*/
+
 #body {
-    background-color: RGB(61, 161, 110);
+    background: RGB(61, 161, 110);
+}
+#resetButton {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .input {
     align-content:  center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     background-color: RGB(192, 237, 214);
     padding: 5px;
     border-radius: 5px;
@@ -13,13 +22,16 @@
     background-color: RGB(247, 253, 205);
     color: RGB(33,142,87);
     padding: 10px;
-    margin: 15px;
+    margin: 5px;
+    margin-bottom: 5px;
     border-radius: 5px;
 }
 .header {
+    display: flex;
     font-weight: bold;
+    position: relative;
     text-align: center;
-    margin: 25px;
+    margin: 20px;
     font-size: 2em;
     background-color: RGB(176, 232, 118);
     padding-bottom 5px;
@@ -28,14 +40,14 @@
 .body-div {
     text-align: center;
     background-color: RGB(140, 214, 177);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
 }
 .answer-div {
     text-align: center;
     background-color: RGB(61, 161, 110);
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -44,4 +56,37 @@
 }
 .button:active {
     color: RGB(176, 197, 46);
+}
+
+
+/*==============================================================================================================================================
+                                                            MEDIA QUERIES
+==============================================================================================================================================*/
+@media (min-width: 769px) {
+    #header {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    #resetButton {
+        order: -1;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-top: 5px;
+        margin-bottom: 60px;
+    }
+    #button {
+        margin-bottom: 0px;
+    }
+    .input {
+        margin-top: .5em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 1.5em;
+    }
+    .answer-div {
+        font-size: 1.25em;
+    }
 }
