@@ -25,7 +25,6 @@
 }
 .header {
     display: flex;
-    flex-wrap: wrap;
     font-weight: bold;
     position: relative;
     text-align: center;
