@@ -1,14 +1,11 @@
 /*==============================================================================================================================================
                                                             MAIN DESIGN
 ==============================================================================================================================================*/
-
 #body {
     background: RGB(61, 161, 110);
 }
 #resetButton {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    order: -1;
 }
 .input {
     align-content:  center;
@@ -28,11 +25,12 @@
 }
 .header {
     display: flex;
+    flex-wrap: wrap;
     font-weight: bold;
     position: relative;
     text-align: center;
     margin: 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     background-color: RGB(176, 232, 118);
     padding-bottom 5px;
     border-radius: 10px;
@@ -67,6 +65,7 @@
         display: flex;
         justify-content: center;
         position: relative;
+        font-size: 2em;
     }
     #resetButton {
         order: -1;
