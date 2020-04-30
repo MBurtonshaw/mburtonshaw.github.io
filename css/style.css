@@ -40,7 +40,7 @@ footer {
     margin-right: 5px;
 }
 
-.container {
+#container {
     min-height: 100vh;
 }
 img {
@@ -56,12 +56,3 @@ img {
 .sections h1 {
     margin-top: 100px;
 }
-
-@media (max-device-width: 480px;) {
-    
-        width: auto;
-        float: none;
-        position: relative;
-        overflow: auto;
-        
-    }
