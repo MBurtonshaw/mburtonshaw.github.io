@@ -57,7 +57,7 @@ img {
     margin-top: 100px;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 480px) {
     #container {
         background-color: white;
         width: auto;
