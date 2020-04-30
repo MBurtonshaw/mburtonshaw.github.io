@@ -63,5 +63,6 @@ img {
         float: none;
         position: relative;
         overflow: auto;
+        display: block;
         
     }
