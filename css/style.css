@@ -59,10 +59,6 @@ img {
 
 @media (max-device-width: 480px;) {
     
-        width: auto;
-        float: none;
-        position: relative;
-        overflow: auto;
-        display: block;
+        background-color: white;
         
     }
