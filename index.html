@@ -1,155 +1,161 @@
-/*  This file is to adapt original style.css to FlexBox format
-*/
-/*  dark color: rgb(29, 30, 29)
-    brown color: rgb(175, 140, 101)
-    light color: rgb(228, 216, 190)
-    lavender color: rgb(220, 213, 228)
-    dark lavender color: rgb(97, 58, 137)
-    font: <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
-*/
- {
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-a {
-    color: rgb(203, 183, 224);
-    text-decoration: none;
-    display: inline-block;
-    width: 100;
-}
+        <title>The Cloak and Dagger</title>
 
-a:active {
-    color: rgb(97, 58, 137);
-}
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- Font Link -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <div id="container">
+        <a href="#" id="side-logo"><img src="img/cd_icon_1.png"/></a>
+        <header>
+            <div id="div1">
+                <div id="menu-div">
+                    <div class="menu"><a href="#drinks">Drinks</a></div>
+                    <div class="menu"><a href="#food">Food</a></div>
+                    <div class="menu">
+                        <a href="#entertainment">Entertainment</a>
+                    </div>
+                    <div class="menu">
+                        <a href="#div3">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <body>
+            <div id="div2">
+                <div class="main-home">
+                    <img src="img/cd_logo_1.png" id="main-logo"/>
+                </div>
+                <div class="sections" id="drinks">
+                    <h1>Drinks</h1>
+                    <div class="drink-menu">
+                        <h3>Hot Mess</h3>
+                        <p>
+                            Rye Whiskey, Red Bull, and a handful of poprocks all
+                            dumped into a copper mug.
+                        </p>
+                    </div>
+                    <div class="drink-menu">
+                        <h3>Devil's Lipstick</h3>
+                        <p>
+                            Absinthe and blue Kool-Aid that was made by using
+                            entirely too much blue powder.
+                        </p>
+                    </div>
+                    <div class="drink-menu">
+                        <h3>Upshot</h3>
+                        <p>It's a pabst with some crystal meth stirred in.</p>
+                    </div>
+                    <div class="drink-menu">
+                        <h3>Prodigy</h3>
+                        <p>
+                            The bartender stares longingly at an empty glass,
+                            sighs, and hands it to you.
+                        </p>
+                    </div>
+                </div>
+                <div class="sections" id="food">
+                    <h1>Food</h1>
+                    <div class="food-menu">
+                        <h3>Hummus</h3>
+                        <p>
+                            A soup bowl full of hummus and a tiny little baby
+                            spoon.
+                        </p>
+                    </div>
+                    <div class="food-menu">
+                        <h3>Disco Fries</h3>
+                        <p>
+                            Leftover fries served with yellow mustard and bacon
+                            bits. Topped with a chicken nugget.
+                        </p>
+                    </div>
+                    <div class="food-menu">
+                        <h3>Cheese Plate</h3>
+                        <p>
+                            Sliced American, Swiss, Provolone, and Cheddar
+                            cheeses, folded up real nice on a plate.
+                        </p>
+                    </div>
+                    <div class="food-menu">
+                        <h3>Tuna Salad</h3>
+                        <p>
+                            A tuna salad with entirely too much tuna. And some
+                            other shit.
+                        </p>
+                    </div>
+                </div>
+                <div class="sections" id="entertainment">
+                    <h1>Shows</h1>
+                    <div class="show-grid">
+                        <div class="shows">
+                            <p>
+                                Jul 3, That One Band <br />Doors at 8 <br />Show
+                                at 9
+                            </p>
+                        </div>
+                        <div class="shows">
+                            <p>
+                                Jul 4, That Other Band <br />Doors at 8
+                                <br />Show at 9
+                            </p>
+                        </div>
+                        <div class="shows">
+                            <p>
+                                Jul 5, Riff Raff <br />Doors at 8 <br />Show at
+                                9
+                            </p>
+                        </div>
+                        <div class="shows">
+                            <p>
+                                Jul 7, Tiny Tim and the Cleveland Orchestra
+                                <br />Doors at 8 <br />Show at 9
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </div>
+    <footer>
+        <div id="div3">
+            <p>
+                Address <br />
+                <a
+                    target="_blank"
+                    href="https://www.google.com/maps/place/Area+51+Groom+Lake+Military+Complex/@37.208049,-115.9681843,17z/data=!3m1!4b1!4m5!3m4!1s0x80b8138e1f929c37:0xc383a58e7f293e77!8m2!3d37.208049!4d-115.9659956"
+                    >Area 51 Groom Lake Military Complex</a
+                >
+            </p>
+            <p>
+                Hours <br />
+                5p-12a Mon-Thu <br />
+                5p-2a Fri-Sat
+            </p>
+            <p>
+                Contact Us <br />
+                456-456-4567 <br />
+                contact@cloakanddagger.com
+            </p>
+        </div>
+        <div class="socials">
+            <a target="_blank" href="http://facebook.com"
+                ><img src=img/facebook.png></a
+            >
 
-body {
-    background-color: rgb(29, 30, 29);
-    color: white;
-    text-align: center;
-    font-family: "Old Standard TT", serif;
-}
-
-footer p {
-    flex: 1;
-}
-
-h1 {
-    color: rgb(175, 140, 101);
-    text-transform: uppercase;
-    text-align: center;
-}
-h3 {
-    color: rgb(228, 216, 190);
-}
-img {
-    max-width: 100%;
-}
-
-#entertainment {
-    margin-top: 4em;
-}
-#food {
-    margin-top: 4em;
-}
-
-#div2 {
-    margin-right: 5em;
-    margin-left: 5em;
-}
-#div3 {
-    margin-top: 6em;
-    display: flex;
-}
-#main-logo {
-    margin-top: 2em;
-}
-#menu-div {
-    max-width: 1200px;
-    border: 1px solid none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-top: 2em;
-}
-#side-logo {
-    width: 10%;
-    display: block;
-    position: fixed;
-    margin-top: 3em;
-    margin-left: 0%;
-}
-
-.menu {
-    flex: 1;
-}
-
-.sections {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.show-grid {
-    display: flex;
-}
-
-.shows {
-    flex: 1;
-}
-.socials img {
-    width: 2em;
-    margin: 0.5em;
-    margin-top: 1em;
-}
-/*----------------------------------------------MEDIA QUERIES: TABLET------------------------------------------------------------------------*/
-@media all and (max-width: 1000px) {
-    #div3 {
-        flex-wrap: wrap;
-    }
-
-    footer p {
-        flex-basis: 100%;
-    }
-
-
-    .show-grid {
-        flex-wrap: wrap;
-    }
-    .shows {
-        flex: 1 1 50%;
-    }
-
-/*----------------------------------------------MEDIA QUERIES: MOBILE------------------------------------------------------------------------*/
-    
-    @media all and (max-width: 480px) {
-        body {
-            background-color: rgb(29, 30, 29);
-            color: white;
-        }
-
-        #container {
-            margin-left: 1em;
-            margin-right: 1em;
-        }
-
-        h1 {
-            color: rgb(175, 140, 101);
-        }
-
-        h3 {
-            color: rgb(228, 216, 190);
-        }
-
-        .menu {
-            flex-basis: 100%;
-        }
-        
-            #menu-div {
-        flex-wrap: wrap;
-    }
-    
-        .shows {
-            flex-basis: 100%;
-        }
-    }
-}
+            <a target="_blank" href="http://instagram.com"
+                ><img src=img/instagram.png></a
+            >
+        </div>
+    </footer>
+</html>
