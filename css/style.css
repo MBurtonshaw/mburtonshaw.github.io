@@ -68,8 +68,8 @@ img {
     and (max-width: 1024px)
  {
     img.resize {
-        width: 25em;
-        margin-top: 11em;
+        width: 22em;
+        margin-top: 12em;
     }
      body {
     background-color: black;
@@ -95,7 +95,7 @@ h2 {
     display: block;
     margin-top: 3.5em;
     text-align: center;
-    margin-right: 8em;
+    margin-right: 10em;
     background-color: black;
     position: absolute;
 }
