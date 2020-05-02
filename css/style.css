@@ -5,15 +5,11 @@
     dark lavender color: rgb(97, 58, 137)
     font: <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
 */
- {
-    box-sizing: border-box;
-}
 
 a {
     color: rgb(203, 183, 224);
     text-decoration: none;
     display: inline-block;
-    width: 100;
 }
 
 a:active {
@@ -58,7 +54,7 @@ p {
     margin-right: 5em;
     margin-left: 5em;
 }
-#div3 {
+#contact {
     margin-top: 6em;
     display: flex;
 }
@@ -66,8 +62,7 @@ p {
     margin-top: 2em;
     width: 50em;
 }
-#menu-div {
-    border: 1px solid none;
+#nav-div {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2em;
@@ -77,10 +72,14 @@ p {
     display: block;
     position: fixed;
     margin-top: 3em;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
-.menu {
+.alt-color {
+    color: rgb(175, 140, 101);
+}
+
+.nav {
     flex: 1;
 }
 
@@ -104,14 +103,14 @@ p {
 }
 /*----------------------------------------------MEDIA QUERIES: TABLET------------------------------------------------------------------------*/
 @media all and (max-width: 1000px) {
-    #div3 {
+    #contact {
         flex-wrap: wrap;
     }
 
     footer p {
         flex-basis: 100%;
     }
-    
+
     .show-grid {
         flex-wrap: wrap;
     }
@@ -132,7 +131,7 @@ p {
             margin-right: 1em;
         }
 
-        #menu-div {
+        #nav-div {
             display: flex;
             flex-wrap: wrap;
         }
@@ -145,7 +144,7 @@ p {
             color: rgb(228, 216, 190);
         }
 
-        .menu {
+        .nav {
             flex-basis: 100%;
         }
 
