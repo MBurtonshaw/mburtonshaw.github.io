@@ -64,13 +64,12 @@ p {
 }
 #main-logo {
     margin-top: 2em;
+    width: 50em;
 }
 #menu-div {
-    max-width: 1200px;
     border: 1px solid none;
-    margin: 0;
-    padding: 0;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 2em;
 }
 #side-logo {
@@ -112,7 +111,7 @@ p {
     footer p {
         flex-basis: 100%;
     }
-
+    
     .show-grid {
         flex-wrap: wrap;
     }
