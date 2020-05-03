@@ -85,7 +85,6 @@ footer p {
 }
 
 #video {
-    position: absolute;
     height: 100%;
     width: 100%;
 }
@@ -122,7 +121,11 @@ footer p {
 }
 .video-div {
     position: relative;
-    overflow: hidden;
+    padding-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
 }
 
 /*----------------------------------------------MEDIA QUERIES: MOBILE------------------------------------------------------------------------*/
@@ -133,22 +136,9 @@ footer p {
         color: white;
     }
 
-    h3 {
-        color: rgb(228, 216, 190);
-    }
-
     #container {
         margin-left: 1em;
         margin-right: 1em;
-    }
-
-    #nav-div {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .nav {
-        flex-basis: 100%;
     }
 
     .shows {
