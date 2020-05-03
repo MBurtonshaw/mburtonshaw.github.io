@@ -6,7 +6,7 @@
     dark lavender color: rgb(97, 58, 137)
     font: <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
 */
-
+/*------------------------------------------------------ELEMENTS-------------------------------------------------------------------------*/
 a {
     color: rgb(203, 183, 224);
     text-decoration: none;
@@ -47,6 +47,23 @@ p {
     color: rgb(228, 216, 190);
 }
 
+footer p {
+    flex-basis: 100%;
+}
+
+/*-----------------------------------------------------------IDs-------------------------------------------------------------------------*/
+
+#contact {
+    margin-top: 6em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#div2 {
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
 #entertainment {
     margin-top: 4em;
 }
@@ -54,22 +71,9 @@ p {
     margin-top: 4em;
 }
 
-#div2 {
-    margin-right: 5em;
-    margin-left: 5em;
-}
-#contact {
-    margin-top: 6em;
-    display: flex;
-}
 #main-logo {
     margin-top: 2em;
     width: 50em;
-}
-
-#video {
-    width: 560px;
-    height: 315px;
 }
 
 #side-logo {
@@ -80,19 +84,20 @@ p {
     margin-left: 0;
 }
 
+#video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*-------------------------------------------------------CLASSES-------------------------------------------------------------------------*/
+
 .alt-color {
     color: rgb(175, 140, 101);
 }
 
 .extra-top {
     margin-top: 3em;
-}
-
-.video-div {
-    width: auto;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 .sections {
@@ -103,6 +108,7 @@ p {
 
 .show-grid {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .shows {
@@ -114,36 +120,24 @@ p {
     margin: 0.5em;
     margin-top: 1em;
 }
-#contact {
-    flex-wrap: wrap;
-}
-
-footer p {
-    flex-basis: 100%;
-}
-
-.show-grid {
-    flex-wrap: wrap;
-}
-.shows {
-    flex: 1 1 50%;
-}
-
-/*----------------------------------------------MEDIA QUERIES: TABLET------------------------------------------------------------------------*/
-
-@media all and (max-width: 800px) {
-    #video {
-        width: 455px;
-        height: 200px;
-    }
+.video-div {
+    position: relative;
+    overflow: hidden;
 }
 
 /*----------------------------------------------MEDIA QUERIES: MOBILE------------------------------------------------------------------------*/
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 480px) {
     body {
         background-color: rgb(29, 30, 29);
         color: white;
+    }
+    h1 {
+        color: rgb(175, 140, 101);
+    }
+
+    h3 {
+        color: rgb(228, 216, 190);
     }
 
     #container {
@@ -160,15 +154,6 @@ footer p {
         width: 350px;
         height: 153px;
     }
-
-    h1 {
-        color: rgb(175, 140, 101);
-    }
-
-    h3 {
-        color: rgb(228, 216, 190);
-    }
-
     .nav {
         flex-basis: 100%;
     }
