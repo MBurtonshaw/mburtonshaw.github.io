@@ -103,8 +103,6 @@ footer p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 5em;
-    margin-right: 5em;
 }
 
 .show-grid {
