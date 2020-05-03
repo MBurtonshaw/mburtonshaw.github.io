@@ -150,10 +150,6 @@ footer p {
         flex-wrap: wrap;
     }
 
-    #video {
-        width: 350px;
-        height: 153px;
-    }
     .nav {
         flex-basis: 100%;
     }
