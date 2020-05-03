@@ -67,6 +67,11 @@ p {
     width: 50em;
 }
 
+#video {
+    width: 560px;
+    height: 315px;
+}
+
 #side-logo {
     width: 10%;
     display: block;
@@ -79,10 +84,15 @@ p {
     color: rgb(175, 140, 101);
 }
 
-
-
 .extra-top {
     margin-top: 3em;
+}
+
+.video-div {
+    width: auto;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sections {
@@ -104,52 +114,66 @@ p {
     margin: 0.5em;
     margin-top: 1em;
 }
-    #contact {
+#contact {
+    flex-wrap: wrap;
+}
+
+footer p {
+    flex-basis: 100%;
+}
+
+.show-grid {
+    flex-wrap: wrap;
+}
+.shows {
+    flex: 1 1 50%;
+}
+
+/*----------------------------------------------MEDIA QUERIES: TABLET------------------------------------------------------------------------*/
+
+@media all and (max-width: 800px) {
+    #video {
+        width: 455px;
+        height: 200px;
+    }
+}
+
+/*----------------------------------------------MEDIA QUERIES: MOBILE------------------------------------------------------------------------*/
+
+@media all and (max-width: 600px) {
+    body {
+        background-color: rgb(29, 30, 29);
+        color: white;
+    }
+
+    #container {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    #nav-div {
+        display: flex;
         flex-wrap: wrap;
     }
 
-    footer p {
+    #video {
+        width: 350px;
+        height: 153px;
+    }
+
+    h1 {
+        color: rgb(175, 140, 101);
+    }
+
+    h3 {
+        color: rgb(228, 216, 190);
+    }
+
+    .nav {
         flex-basis: 100%;
     }
 
-    .show-grid {
-        flex-wrap: wrap;
-    }
     .shows {
-        flex: 1 1 50%;
-    }
-/*----------------------------------------------MEDIA QUERIES: MOBILE------------------------------------------------------------------------*/
-
-    @media all and (max-width: 480px) {
-        body {
-            background-color: rgb(29, 30, 29);
-            color: white;
-        }
-
-        #container {
-            margin-left: 1em;
-            margin-right: 1em;
-        }
-
-        #nav-div {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        h1 {
-            color: rgb(175, 140, 101);
-        }
-
-        h3 {
-            color: rgb(228, 216, 190);
-        }
-
-        .nav {
-            flex-basis: 100%;
-        }
-
-        .shows {
-            flex-basis: 100%;
-        }
+        flex-basis: 100%;
     }
 }
