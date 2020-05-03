@@ -126,15 +126,12 @@ footer p {
 }
 
 @media all and (max-width: 1024px) {
-    #main-logo {
-        width: 50%;
-    }
     .show-grid {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0;
-    margin-right: 0;
-}
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+    }
     .video-div {
         width: 60%;
     }
@@ -148,11 +145,10 @@ footer p {
         color: white;
     }
 
-    
     .shows {
         flex-basis: 100%;
     }
-        .video-div {
+    .video-div {
         width: 75%;
     }
 }
