@@ -68,7 +68,7 @@ footer p {
 
 #main-logo {
     margin-top: 2em;
-    width: 70%;
+    width: 55%;
 }
 
 #side-logo {
@@ -126,6 +126,9 @@ footer p {
 }
 
 @media all and (max-width: 1024px) {
+    #main-logo {
+    width: 65%;
+}
     .show-grid {
         display: flex;
         flex-wrap: wrap;
@@ -144,6 +147,11 @@ footer p {
         background-color: rgb(29, 30, 29);
         color: white;
     }
+    
+    #main-logo {
+
+    width: 70%;
+}
 
     .shows {
         flex-basis: 100%;
