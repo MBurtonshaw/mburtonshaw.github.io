@@ -69,6 +69,8 @@ footer p {
 #main-logo {
     margin-top: 2em;
     width: 50em;
+    margin-right: 3em;
+    margin-left: 3em;
 }
 
 #side-logo {
@@ -147,6 +149,7 @@ footer p {
         color: white;
     }
 
+    
     .shows {
         flex-basis: 100%;
     }
