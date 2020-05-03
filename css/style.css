@@ -126,6 +126,9 @@ footer p {
 }
 
 @media all and (max-width: 1024px) {
+    #main-logo {
+        width: 50%;
+    }
     .show-grid {
     display: flex;
     flex-wrap: wrap;
