@@ -144,6 +144,16 @@ footer p {
 }
 
 @media all and (max-width: 1024px) {
+    #drinks {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    #food {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
     #main-logo {
         width: 65%;
     }
@@ -164,16 +174,6 @@ footer p {
     body {
         background-color: rgb(29, 30, 29);
         color: white;
-    }
-
-    #food {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-
-    #drinks {
-        margin-left: 2em;
-        margin-right: 2em;
     }
 
     #main-logo {
