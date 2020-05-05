@@ -1,14 +1,14 @@
 /*  dark color: rgb(29, 30, 29)
     brown color: rgb(175, 140, 101)
     light color: rgb(228, 216, 190)
-    light lavender color: rgb(220, 213, 228)
-    mid lavender color: rgb(186, 158, 209)
+    light lavender color: rgb(222, 187, 240)
+    mid lavender color: rgb(192, 158, 209)
     dark lavender color: rgb(97, 58, 137)
     font: <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
 */
 /*------------------------------------------------------ELEMENTS-------------------------------------------------------------------------*/
 a {
-    color: rgb(203, 183, 224);
+    color: rgb(222, 187, 240);
     text-decoration: none;
     display: inline-block;
 }
@@ -29,13 +29,13 @@ footer p {
 }
 
 h1 {
-    color: rgb(186, 158, 209);
+    color: rgb(175, 140, 101);
     text-transform: uppercase;
     text-align: center;
 }
 
 h3 {
-    color: rgb(175, 140, 101);
+    color: rgb(228, 216, 190);
     text-transform: uppercase;
 }
 
@@ -59,16 +59,15 @@ footer p {
     flex-wrap: wrap;
 }
 
-#entertainment {
-    margin-top: 4em;
-}
-#food {
-    margin-top: 4em;
-}
-
 #main-logo {
     margin-top: 2em;
     width: 55%;
+}
+
+#nav-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
 }
 
 #side-logo {
@@ -94,10 +93,15 @@ footer p {
     margin-top: 3em;
 }
 
+.nav {
+    flex: 1;
+}
+
 .sections {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 4em;
 }
 
 .show-grid {
@@ -111,6 +115,20 @@ footer p {
     flex: 1 1 50%;
     margin-top: 3em;
 }
+
+.shows2 {
+    flex: 1 1 50%;
+    margin-top: 1em;
+}
+
+.shows h3 {
+    color: rgb(192, 158, 209);
+}
+
+.shows2 h3 {
+    color: rgb(192, 158, 209);
+}
+
 .socials img {
     width: 2em;
     margin: 0.5em;
@@ -127,8 +145,8 @@ footer p {
 
 @media all and (max-width: 1024px) {
     #main-logo {
-    width: 65%;
-}
+        width: 65%;
+    }
     .show-grid {
         display: flex;
         flex-wrap: wrap;
@@ -147,11 +165,19 @@ footer p {
         background-color: rgb(29, 30, 29);
         color: white;
     }
-    
-    #main-logo {
 
-    width: 70%;
-}
+    #main-logo {
+        width: 70%;
+    }
+
+    #nav-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav {
+        flex-basis: 100%;
+    }
 
     .shows {
         flex-basis: 100%;
