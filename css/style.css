@@ -166,6 +166,11 @@ footer p {
         color: white;
     }
 
+    #container {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
     #main-logo {
         width: 70%;
     }
