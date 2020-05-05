@@ -144,19 +144,14 @@ footer p {
 }
 
 @media all and (max-width: 1024px) {
-    #drinks {
+    #main-logo {
+        width: 65%;
+    }
+    .sections {
         margin-left: 4em;
         margin-right: 4em;
     }
 
-    #food {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-
-    #main-logo {
-        width: 65%;
-    }
     .show-grid {
         display: flex;
         flex-wrap: wrap;
