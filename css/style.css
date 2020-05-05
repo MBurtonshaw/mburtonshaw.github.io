@@ -171,6 +171,10 @@ footer p {
         flex-wrap: wrap;
     }
 
+    .extra- bottom {
+        margin-bottom: 2em;
+    }
+    
     .nav {
         flex-basis: 100%;
     }
