@@ -104,34 +104,28 @@ body {
         height: auto;
     }
 
-
     #social1 {
         margin-top: 0.6em;
-  
     }
 
     #social2 {
         margin-top: 0.6em;
-
     }
-
-
 }
 
-    @media all and (max-width: 700px) {
-        #blackbox {
-            width: 60%;
-            height: auto;
-        }
-        #text {
-            font-size: 1.25em;
-        }
-        
+@media all and (max-width: 700px) {
+    #blackbox {
+        width: 60%;
+        height: auto;
     }
+    #text {
+        font-size: 1.25em;
+    }
+}
 
 @media all and (max-width: 480px) {
-            #blackbox {
-            width: 75%;
-            height: auto;
-        }
+    #blackbox {
+        width: 75%;
+        height: auto;
+    }
 }
