@@ -11,201 +11,44 @@
         <link rel="stylesheet" href="css/normalize.css" />
         <!-- Font Link -->
         <link
-            href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap"
             rel="stylesheet"
         />
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
-    <div id="container">
-        <!-------------------------------------------SIDE LOGO------------------------------------------------------------->
-        <a href="#" id="side-logo"><img src="img/cd_icon_1.png"/></a>
-        <!-------------------------------------------NAV BAR--------------------------------------------------------------->
-        <header>
-            <div id="nav-div">
-                <div class="nav"><a href="#drinks">Menu</a></div>
-                <div class="nav">
-                    <a href="#entertainment">Events</a>
-                </div>
-                <div class="nav">
-                    <a href="#contact">Contact Us</a>
-                </div>
-            </div>
-        </header>
-        <body>
-            <div id="div2">
-                <!------------------------------------MAIN LOGO------------------------------------------------------------>
-                <div id="img-div">
-                    <img src="img/cd_logo_1.png" id="main-logo" />
-                </div>
-                <!------------------------------------VIDEO---------------------------------------------------------------->
-                <div class="video-div">
-                    <iframe
-                        id="video"
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/6nVf2BuDPUc"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
 
-                    <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/rkpG4XApJ28"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
+    <body>
+        <div id="background_div">
+            <img id="background_pic" src="img/BackgroundImage_left.png" />
+        </div>
 
-                    <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/-KT-r2vHeMM"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
-                </div>
-                <!------------------------------------------------MENU------------------------------------------------->
-                <div class="sections" id="drinks">
-                    <h1>Drinks</h1>
-                    <div class="drinks">
-                        <h3>Hot Mess</h3>
+        <div id="container">
+            <div id="logo_div">
+                <img id="logo_pic" src="img/CD_Logo.png" />
+
+                <div id="blackbox">
+                    <img id="coming_soon" src="img/ComingSoon.png" />
+                    <div id="text_box">
+                        <h1 id="text">
+                            A cocktail lounge with focus on hospitality and
+                            craft located next to Lincoln Park in the historic
+                            Tremont neighborhood of Cleveland.
+                        </h1>
+                       
+                        <img id="social1" src="img/CD_Facebook.png">
+                        <img id="social2" src="img/CD_Instagram.png">
+                        
                         <p>
-                            Rye Whiskey, Red Bull, and a handful of poprocks all
-                            dumped into a copper mug.
+                            2399 W. 11th St. Cleveland, OH 44113
                         </p>
-                    </div>
-                    <div class="drinks">
-                        <h3>Devil's Lipstick</h3>
-                        <p>
-                            Absinthe and blue Kool-Aid that was made by using
-                            entirely too much blue powder.
-                        </p>
-                    </div>
-                    <div class="drinks">
-                        <h3>Upshot</h3>
-                        <p>It's a pabst with some crystal meth stirred in.</p>
-                    </div>
-                    <div class="drinks">
-                        <h3>Prodigy</h3>
-                        <p>
-                            The bartender stares longingly at an empty glass,
-                            sighs, and hands it to you.
-                        </p>
-                    </div>
-                </div>
-                <div class="sections" id="food">
-                    <h1>Food</h1>
-                    <div class="foods">
-                        <h3>Hummus</h3>
-                        <p>
-                            A soup bowl full of hummus and a tiny little baby
-                            spoon.
-                        </p>
-                    </div>
-                    <div class="foods">
-                        <h3>Disco Fries</h3>
-                        <p>
-                            Leftover fries served with yellow mustard and bacon
-                            bits. Topped with a chicken nugget.
-                        </p>
-                    </div>
-                    <div class="foods">
-                        <h3>Cheese Plate</h3>
-                        <p>
-                            Sliced American, Swiss, Provolone, and Cheddar
-                            cheeses, folded up real nice on a plate.
-                        </p>
-                    </div>
-                    <div class="foods">
-                        <h3>Tuna Salad</h3>
-                        <p>
-                            A tuna salad with entirely too much tuna. And some
-                            other shit.
-                        </p>
-                    </div>
-                </div>
-                <!------------------------------------------------EVENTS----------------------------------------------->
-                <div class="sections" id="entertainment">
-                    <h1>Events</h1>
-                    <div class="show-grid">
-                        <div class="shows extra-bottom">
-                            <h3>The Hollies</h3>
-                            <p>July 3 <br />Doors at 8 <br />Show at 9</p>
-
-                            <p>Tickets: $10.00</p>
-                        </div>
-                        <div class="shows">
-                            <h3>Kublai Khan</h3>
-                            <p>July 4 <br />Doors at 8 <br />Show at 9</p>
-
-                            <p>Tickets: $10.00</p>
-                        </div>
-                        <div class="shows">
-                            <h3 class="extra-top">Riff Raff</h3>
-                            <p>July, 5 <br />Doors at 8 <br />Show at 9</p>
-
-                            <p>Tickets: $10.00</p>
-                        </div>
-                        <div class="shows">
-                            <h3 class="extra-top">
-                                Tiny Tim
-                            </h3>
-                            <p>
-                                July 7
-                                <br />Doors at 8 <br />Show at 9
-                            </p>
-
-                            <p>Tickets: $10.00</p>
-                        </div>
-                        <div class="shows">
-                            <h3 class="extra-top">Depeche Mode</h3>
-                            <p>July, 5 <br />Doors at 8 <br />Show at 9</p>
-
-                            <p>Tickets: $10.00</p>
-                        </div>
-                        <div class="shows">
-                            <h3 class="extra-top">Johnny Cash's Hologram</h3>
-                            <p>July, 5 <br />Doors at 8 <br />Show at 9</p>
-
-                            <p>Tickets: $10.00</p>
-                        </div>
                     </div>
                 </div>
             </div>
-        </body>
-    </div>
-    <footer>
-        <!--------------------------------------------------------CONTACT INFO--------------------------------------------------------->
-        <div id="contact">
-            <p class="alt-color">
-                Address <br />
-                <a
-                    target="_blank"
-                    href="https://www.google.com/maps/place/Area+51+Groom+Lake+Military+Complex/@37.208049,-115.9681843,17z/data=!3m1!4b1!4m5!3m4!1s0x80b8138e1f929c37:0xc383a58e7f293e77!8m2!3d37.208049!4d-115.9659956"
-                    >Area 51 Groom Lake Military Complex</a
-                >
-            </p>
-            <p class="alt-color">
-                Hours <br />
-                5p-12a Mon-Thu <br />
-                5p-2a Fri-Sat
-            </p>
-            <p class="alt-color">
-                Contact Us <br />
-                456-456-4567 <br />
-                contact@cloakanddagger.com
-            </p>
         </div>
-        <div class="socials">
-            <a target="_blank" href="http://facebook.com"
-                ><img src=img/facebook.png></a
-            >
-
-            <a target="_blank" href="http://instagram.com"
-                ><img src=img/instagram.png></a
-            >
-        </div>
-    </footer>
+    </body>
 </html>
+
+<!-- <div id="background_div">
+            <img  id="background_pic" src="img/BackgroundImage_left.png">
+</div> -->
