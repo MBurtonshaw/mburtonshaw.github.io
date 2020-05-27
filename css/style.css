@@ -29,9 +29,9 @@
 #coming_soon {
     width: 25em;
     height: auto;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
 }
 
 #container {
@@ -130,6 +130,6 @@ p {
         height: auto;
     }
     #logo_pic {
-        height: 10em;
+        height: 13em;
     }
 }
