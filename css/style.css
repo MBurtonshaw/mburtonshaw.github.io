@@ -119,19 +119,20 @@ p {
     }
 }
 
-@media all and (max-width: 700px) {
-    #blackbox {
-        width: 70%;
-        height: 17em;
-    }
-}
+
 
 @media all and (max-width: 480px) {
     #blackbox {
         width: 70%;
-        height: 13em;
+        height: 16em;
     }
     #logo_pic {
         height: 13em;
+    }
+    #text{
+        font-size: 1em;
+    }
+    #text-box {
+        width: 90%;
     }
 }
