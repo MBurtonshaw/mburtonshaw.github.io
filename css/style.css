@@ -96,14 +96,14 @@ p {
 
 @media all and (max-width: 1080px) {
     #blackbox {
-        width: 80%;
+        width: 90%;
         height: 17em;
         margin-right: auto;
         margin-left: auto;
     }
 
     #coming_soon {
-        width: 85%;
+        width: 95%;
         height: auto;
         padding-top: 0;
     }
