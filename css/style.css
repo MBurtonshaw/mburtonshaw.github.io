@@ -29,9 +29,7 @@
 #coming_soon {
     width: 25em;
     height: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
+    padding: 0em;
     margin-right: auto;
     margin-left: auto;
 }
@@ -102,12 +100,6 @@ p {
         height: 17em;
         margin-right: auto;
         margin-left: auto;
-    }
-
-    #coming_soon {
-        width: 95%;
-        height: auto;
-        padding-top: 0;
     }
 
     #social1 {
