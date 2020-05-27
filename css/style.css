@@ -19,7 +19,7 @@
 #blackbox {
     background-color: black;
     height: 19em;
-    width: 32em;
+    width: 32%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 1em;
@@ -57,6 +57,8 @@
 #socials {
     height: auto;
     width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 #social1 {
@@ -96,10 +98,15 @@ p {
 
 @media all and (max-width: 1080px) {
     #blackbox {
-        width: 90%;
+        width: 60%;
         height: 17em;
         margin-right: auto;
         margin-left: auto;
+    }
+    
+    #coming-soon {
+        width: 100%;
+        height: auto;
     }
 
     #social1 {
@@ -120,8 +127,12 @@ p {
 
 
 @media all and (max-width: 480px) {
+    #background_pic {
+        
+    }
+    
     #blackbox {
-        width: 70%;
+        width: 85%;
         height: 17em;
     }
     #logo_pic {
