@@ -96,26 +96,30 @@ p {
 
 @media all and (max-width: 1080px) {
     #blackbox {
-        width: 70%;
+        width: 80%;
         height: 17em;
         margin-right: auto;
         margin-left: auto;
     }
 
     #coming_soon {
-        width: 70%;
+        width: 85%;
         height: auto;
+        padding-top: 0;
     }
 
     #social1 {
-        margin-top: 0.6em;
+        margin-top: 0.5em;
     }
 
     #social2 {
-        margin-top: 0.6em;
+        margin-top: 0.5em;
     }
     #text {
         font-size: 1.25em;
+    }
+    p {
+        font-size: 0.75em;
     }
 }
 
@@ -124,7 +128,7 @@ p {
 @media all and (max-width: 480px) {
     #blackbox {
         width: 70%;
-        height: 16em;
+        height: 17em;
     }
     #logo_pic {
         height: 13em;
