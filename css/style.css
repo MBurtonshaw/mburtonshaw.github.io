@@ -3,16 +3,14 @@
     Color 2: rgb(238, 218, 182)
 */
 
-
-
 #background_pic {
-    width: 100%%;
+    width: 100%;
     height: 100%;
 }
 
 #background_div {
     position: fixed;
-    height: auto%;
+    height: 100%;
     width: 50%;
     margin-left: 0;
     margin-top: 0;
@@ -56,30 +54,6 @@
     margin-right: auto;
 }
 
-#text {
-    color: rgb(174, 131, 87);
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.5em;
-}
-
-p {
-    color: rgb(238, 218, 182);
-    font-size: 1em;
-    margin-bottom: 0.25em;
-}
-
-body {
-    background-color: rgb(174, 131, 87);
-    font-family: "Goudy Bookletter 1911", serif;
-}
-
-#text_box {
-    width: 85%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 #socials {
     height: auto;
     width: 100%;
@@ -93,6 +67,32 @@ body {
 #social2 {
     height: 2.5em;
 }
+
+#text {
+    color: rgb(174, 131, 87);
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.5em;
+}
+
+#text_box {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: rgb(174, 131, 87);
+    font-family: "Goudy Bookletter 1911", serif;
+}
+
+p {
+    color: rgb(238, 218, 182);
+    font-size: 1em;
+    margin-bottom: 0.25em;
+}
+
+/*---------====================================MEDIA QUERY: MOBILE====================================================----------------*/
 
 @media all and (max-width: 1080px) {
     #blackbox {
@@ -114,7 +114,6 @@ body {
     }
 }
 
-/*---------====================================MEDIA QUERY: MOBILE====================================================----------------*/
 @media all and (max-width: 700px) {
     #blackbox {
         width: 60%;
