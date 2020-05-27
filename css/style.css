@@ -101,7 +101,7 @@ p {
     }
 
     #coming_soon {
-        width: 55%;
+        width: 70%;
         height: auto;
     }
 
@@ -126,7 +126,10 @@ p {
 
 @media all and (max-width: 480px) {
     #blackbox {
-        width: 75%;
+        width: 85%;
         height: auto;
+    }
+    #logo_pic {
+        height: 10em;
     }
 }
