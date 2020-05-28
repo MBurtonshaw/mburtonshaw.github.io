@@ -95,7 +95,7 @@ p {
 
 @media all and (max-width: 1080px) {
     #background_div {
-        background-image: url(../img/BackgroundImage_cropped_alt.png);
+        background-image: url(../img/BackgroundImage_tablet.png);
     }
     #blackbox {
         width: 50%;
@@ -151,6 +151,9 @@ p {
 /*---------====================================MEDIA QUERY: MOBILE====================================================----------------*/
 
 @media all and (max-width: 500px) {
+    #background_div {
+        background-image: url(../img/BackgroundImage_mobile.png);
+    }
     #coming_soon {
         width: 80%;
     }
