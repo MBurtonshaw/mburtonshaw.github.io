@@ -80,6 +80,10 @@
 
 /*--------------------------------------------------------------- Element ------------------------------------------------------------------*/
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(174, 131, 87);
     font-family: "Goudy Bookletter 1911", serif;
@@ -165,5 +169,8 @@ p {
     }
     #text-box {
         margin-bottom: 1em;
+    }
+    p {
+        margin-top: 2em;
     }
 }
