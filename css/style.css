@@ -151,7 +151,13 @@ p {
 /*---------====================================MEDIA QUERY: MOBILE====================================================----------------*/
 
 @media all and (max-width: 500px) {
+    #coming_soon {
+        width: 80%;
+    }
     #logo_pic {
         height: 13em;
+    }
+    #text {
+        font-size: 1em;
     }
 }
