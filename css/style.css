@@ -3,11 +3,6 @@
     Color 2: rgb(238, 218, 182)
 */
 /*--------------------------------------------------------------- ID --------------------------------------------------------------------*/
-#background_pic {
-    width: 100%;
-    height: 100%;
-}
-
 #background_div {
     background-image: url(../img/BackgroundImage_left_alt.jpg);
     position: fixed;
@@ -99,6 +94,9 @@ p {
 /*---------====================================MEDIA QUERY: TABLET====================================================----------------*/
 
 @media all and (max-width: 1080px) {
+    #background_div {
+        background-image: url(../img/BackgroundImage_cropped_alt.png);
+    }
     #blackbox {
         width: 50%;
         height: 17em;
@@ -118,6 +116,10 @@ p {
     #instagram {
         margin-top: 0.5em;
     }
+
+    #logo_pic {
+        height: 5em;
+    }
     #text {
         font-size: 1.25em;
     }
@@ -129,12 +131,12 @@ p {
 /*---------====================================MEDIA QUERY: MOBILE====================================================----------------*/
 
 @media all and (max-width: 750px) {
-    #background_div {
-        background-image: url(../img/background_alt.png);
-    }
-
     #blackbox {
         width: 85%;
+        height: 17em;
+    }
+
+    #logo_pic {
         height: 17em;
     }
 
