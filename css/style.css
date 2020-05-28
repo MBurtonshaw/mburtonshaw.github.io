@@ -163,4 +163,7 @@ p {
     #text {
         font-size: 1em;
     }
+    #text-box {
+        margin-bottom: 1em;
+    }
 }
