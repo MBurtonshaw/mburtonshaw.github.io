@@ -14,7 +14,7 @@
 
 #blackbox {
     background-color: rgb(22, 22, 22);
-    height: 19em;
+    height: auto;
     width: 40%;
     margin-right: auto;
     margin-left: auto;
@@ -23,9 +23,8 @@
 }
 
 #coming_soon {
-    width: 25em;
+    width: 90%;
     height: auto;
-    padding: 0em;
     margin-right: auto;
     margin-left: auto;
 }
@@ -95,19 +94,20 @@ p {
     margin-bottom: 0.25em;
 }
 
-/*---------====================================MEDIA QUERY: TABLET====================================================----------------*/
+/*---------====================================MEDIA QUERY: MOBILE/LANDSCAPE================================================--------------*/
 
 @media all and (max-width: 1080px) {
-    #background_div {
-        background-image: url(../img/BackgroundImage_tablet.png);
-    }
     #blackbox {
-        width: 50%;
-        height: 17em;
+        width: 55%;
+        height: auto;
         margin-right: auto;
         margin-left: auto;
     }
-
+    
+    #background_div {
+        background-image: url(../img/BackgroundImage_tablet.png);
+    }
+    
     #coming-soon {
         width: 100%;
         height: auto;
@@ -119,25 +119,6 @@ p {
 
     #instagram {
         margin-top: 0.5em;
-    }
-
-    #logo_pic {
-        height: 5em;
-    }
-    #text {
-        font-size: 1.25em;
-    }
-    p {
-        font-size: 1.25em;
-    }
-}
-
-/*---------====================================MEDIA QUERY: MOBILE====================================================----------------*/
-
-@media all and (max-width: 750px) {
-    #blackbox {
-        width: 85%;
-        height: 17em;
     }
 
     #logo_pic {
