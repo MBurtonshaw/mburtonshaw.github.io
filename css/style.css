@@ -237,6 +237,9 @@ p {
     .shows {
         flex-basis: 100%;
     }
+    #side-logo {
+    width: 11%;
+}
     .video-div {
         width: 70%;
     }
