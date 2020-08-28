@@ -17,39 +17,52 @@
         letter-spacing: 2px;
     }
 
+    #container {
+        position: absolute;
+    }
+
     /*========================================================================================================================================*/
     /*============================================---------- SECTION ONE -----------=========================================================*/
     /*========================================================================================================================================*/
     #one {
         position: relative;
-        display: inline-block;
+        display: grid;
         width: 100%;
+        grid-template-rows: 7.5em;
+        grid-template-columns: 23.5em 20em 35em 5.7em;
     }
 
     #one_img_div {
-        width: 50%;
+        width: 100%;
+        height: 100%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
     }
 
     #one_img {
-        width: 55%;
+        width: 100%;
+        height: auto;
         padding: 1.5em;
     }
 
     #one_menu_div {
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 45%;
+        width: 100%;
+        height: 100%;
         text-align: center;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 3;
+        grid-column-end: 3;
     }
 
     #one_menu {
         list-style-type: none;
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-columns: 8.7em 8.7em 8.7em 8.7em;
         grid-template-rows: 100%;
         text-align: center;
-        margin-right: 2em;
         width: auto;
     }
 
@@ -62,21 +75,29 @@
     #one_menu_first {
         grid-column-start: 1;
         grid-column-end: 1;
+        height: 100%;
+        width: 100%;
     }
 
     #one_menu_second {
         grid-column-start: 2;
         grid-column-end: 2;
+        height: 100%;
+        width: 100%;
     }
 
     #one_menu_third {
         grid-column-start: 3;
         grid-column-end: 3;
+        height: 100%;
+        width: 100%;
     }
 
     #one_menu_fourth {
         grid-column-start: 4;
         grid-column-end: 4;
+        height: 100%;
+        width: 100%;
     }
 
     .one_menu_a {
@@ -92,16 +113,22 @@
     /*========================================================================================================================================*/
     #two {
         position: relative;
-        display: inline-block;
+        display: grid;
+        grid-template-rows: 3em;
+        grid-template-columns: 14em 60em 10.2em;
         width: 100%;
         height: auto;
+        background-color: rgb(173, 129, 86);
     }
 
     #two_contacts_div {
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
         display: grid;
         grid-template-rows: 100%;
         grid-template-columns: 58% 2% 15% 25%;
-        background-color: rgb(173, 129, 86);
     }
 
     .two_contacts {
@@ -125,29 +152,40 @@
     /*========================================================================================================================================*/
     /*============================================---------- SECTION THREE -----------=========================================================*/
     /*========================================================================================================================================*/
+    #three {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: 33.6em 14.5em 36.1em;
+        grid-template-rows: 10em 22em 8em;
+    }
+
     #three_img_div {
-        height: auto;
-        width: auto;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        height: 100%;
+        width: 100%;
     }
 
     #three_img {
-        height: auto;
+        height: 100%;
         width: 100%;
     }
 
     #three_img_small_div {
-        position: absolute;
-        left: 0;
-        top: 0;
-        margin-top: 24%;
-        margin-left: 40%;
-        height: auto;
-        width: auto;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height: 100%;
+        width: 100%;
     }
 
     #three_img_small {
         height: 100%;
-        width: 60%;
+        width: 100%;
     }
     /*========================================================================================================================================*/
     /*============================================---------- SECTION FOUR ------------=========================================================*/
@@ -157,6 +195,7 @@
         display: grid;
         grid-template-rows: 2em 8em 7em 11em;
         grid-template-columns: 15em 50em 10em;
+        width: 100%;
     }
 
     #four_h1 {
@@ -247,26 +286,28 @@
         background-color: rgb(173, 129, 86);
         text-align: center;
         display: grid;
-        grid-template-columns: 4em 20em 16em 40em;
-        grid-template-rows: 12em 26.5em;
+        grid-template-columns: 3em 20em 6em 8em 47.2em;
+        grid-template-rows: 1.5em 11em 25.2em;
+        width: 100%;
     }
     #five_img_div {
         width: 100%;
         height: 100%;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 6;
     }
 
     #five_img {
-        width: 65%;
+        width: 100%;
         height: auto;
-        padding-top: 1.5em;
-        padding-bottom: 0.5em;
-        position: absolute;
-        right: 0;
+        position: relative;
     }
 
     #five_text_div {
-        grid-row-start: 2;
-        grid-row-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
         grid-column-start: 2;
         grid-column-end: 3;
         display: grid;
@@ -321,27 +362,30 @@
         background-color: rgb(173, 129, 86);
         text-align: center;
         display: grid;
-        grid-template-columns: 30em 29em 21em 8em;
-        grid-template-rows: 8em 21em 9em;
+        grid-template-columns: 30em 25em 4.2em 21em 4em;
+        grid-template-rows: 1em 8em 20em 8.5em 1.5em;
+        width: 100%;
     }
     #six_img_div {
         width: 100%;
         height: 100%;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 
     #six_img {
-        width: 65%;
-        height: auto;
-        padding-bottom: 1.5em;
-        position: absolute;
-        left: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
     }
 
     #six_text_div {
-        grid-row-start: 2;
-        grid-row-end: 2;
-        grid-column-start: 3;
-        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 4;
         display: grid;
         grid-template-rows: 7em 5em 4em;
         grid-template-columns: auto;
@@ -391,6 +435,7 @@
         display: grid;
         grid-template-rows: 2em 5em 1em;
         grid-template-columns: 2em 12em 15em 20em 35em;
+        width: 100%;
     }
 
     #seven_text {
