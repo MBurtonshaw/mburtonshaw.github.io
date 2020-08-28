@@ -10,11 +10,15 @@
     light background color: rgb(173, 129, 86);
     light text color: rgb(225, 213, 186);
 */
-@media all and (min-width: 950px) {
+@media all and (min-width: 800px) {
     body {
+        position: absolute;
         background-color: rgb(21, 21, 21);
         font-family: "Goudy Bookletter 1911";
         letter-spacing: 2px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #container {
@@ -492,6 +496,6 @@
     /*========================================-----------MEDIA QUERY: MOBILE------------======================================================*/
     /*========================================================================================================================================*/
 
-    @media all and (max-width: 949px) {
+    @media all and (max-width: 799px) {
     }
 }
