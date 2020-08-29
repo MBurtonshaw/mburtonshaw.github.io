@@ -12,24 +12,17 @@
 */
 @media all and (min-width: 800px) {
     body {
-        position: relative;
         background-color: rgb(21, 21, 21);
         font-family: "Goudy Bookletter 1911";
         letter-spacing: 2px;
         text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-        width: auto;
-        height: auto;
     }
 
     #container {
-        position: absolute;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
+        width: 1349px;
+        position: relative;
     }
-
+    
     /*========================================================================================================================================*/
     /*============================================---------- SECTION ONE -----------=========================================================*/
     /*========================================================================================================================================*/
@@ -72,7 +65,7 @@
         grid-template-columns: 8.7em 8.7em 8.7em 8.7em;
         grid-template-rows: 100%;
         text-align: center;
-        width: auto;
+        width: 100%;
     }
 
     .one_menu {
