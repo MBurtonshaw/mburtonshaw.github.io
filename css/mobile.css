@@ -20,7 +20,7 @@
     display: grid;
     width: 100%;
     grid-template-rows: 7.5em;
-    grid-template-columns: 50% 15% 16% 9%;
+    grid-template-columns: 50% 14% 10% 18%;
     background-color: rgb(21, 21, 21);
 }
 
