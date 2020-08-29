@@ -60,6 +60,34 @@ function mobile() {
     $("#one_menu_div").html(
         "<a id='one_menu_a'><img src='img/mobile_menu_icon.png' id='one_menu-img'></a>"
     );
+        $("#four").html(
+        "<div id='four_text_box_div'>" +
+            "<h1 id='four_h1'>" +
+            "Lorem ipsum sit dolor" +
+            "</h1>" +
+            "<p id='four_text'>" +
+            "A cocktail lounge with focus on hospitality and craft located next to Lincoln Park in the historic Tremont neighborhood of Cleveland." +
+            "</p>" +
+            "</div>" +
+            "<div id='four_time_div'>" +
+            "<div id='four_weekdays_div'>" +
+            "<p id='four_weekdays'>" +
+            "Wed - Sat" +
+            "</p>" +
+            "<p id='four_weekdays_time'>" +
+            "4pm - 10pm" +
+            "</p>" +
+            "</div>" +
+            "<div id='four_weekends_div'>" +
+            "<p id='four_weekends'>" +
+            "Sat &amp; Sun" +
+            "</p>" +
+            "<p id='four_weekends_time'>" +
+            "10am - 2pm" +
+            "</p>" +
+            "</div>" +
+            "</div>)"
+    );
 }
 
 if (window.innerWidth > 1049) {
