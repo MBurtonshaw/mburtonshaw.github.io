@@ -20,7 +20,8 @@
 
     #container {
         width: 1349px;
-        position: relative;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     /*========================================================================================================================================*/
@@ -196,7 +197,7 @@
     #four {
         display: grid;
         grid-template-rows: 2em 8em 7em 11em;
-        grid-template-columns: 15em 50em 10em;
+        grid-template-columns: auto 50em auto;
         width: 100%;
     }
 
@@ -353,9 +354,9 @@
         text-align: top;
         font-size: 1.1em;
         font-weight: 500;
-        grid-column-start: 2;
-        grid-column-end: 2;
+
     }
+    
 
     /*========================================================================================================================================*/
     /*============================================---------- SECTION SIX -------------=========================================================*/
@@ -427,6 +428,11 @@
         padding-bottom: 0.5em;
         font-size: 1.1em;
         font-weight: 500;
+    }
+        .side_anchors {
+        text-decoration: none;
+        color: black;
+        width: 100%;
         grid-column-start: 2;
         grid-column-end: 2;
     }
