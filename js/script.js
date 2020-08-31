@@ -51,15 +51,11 @@ for (let i = 0; i < 1; i++) {
 function desktop() {
     $("#change_css").attr("href", "");
     $("#change_css").attr("href", "css/style.css");
-    $("#hidden_img").remove();
 }
 
 function mobile() {
     $("#change_css").attr("href", "");
     $("#change_css").attr("href", "css/mobile.css");
-    $("#one_menu_div").html(
-        "<a id='one_menu_a'><img src='img/mobile_menu_icon.png' id='one_menu-img'></a>"
-    );
         $("#four").html(
             "<h1 id='four_h1'>" +
                 "Lorem ipsum sit dolor" +
