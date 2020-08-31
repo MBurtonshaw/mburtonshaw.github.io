@@ -41,7 +41,7 @@
 }
 
 #one_menu_div {
-    width: auto;
+    width: 100%;
     height: 100%;
     text-align: right;
     grid-row-start: 1;
@@ -51,11 +51,11 @@
 }
 
 #one_menu {
-    width: 100%;
+    width: auto;
 }
 
 #one_menu_img {
-    width: 100%;
+    width: auto;
 }
 /*========================================================================================================================================*/
 /*============================================---------- SECTION TWO ------------=========================================================*/
@@ -472,7 +472,7 @@
         display: grid;
         width: 100%;
         grid-template-rows: 7.5em;
-        grid-template-columns: 50% 23% auto 8% 12%;
+        grid-template-columns: 50% 20% 0% 10% 10%;
         background-color: rgb(21, 21, 21);
     }
 
