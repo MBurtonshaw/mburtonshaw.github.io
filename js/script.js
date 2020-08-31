@@ -95,11 +95,13 @@ function mobile() {
                     "</a>" +
                 "</div>" +
                 "<div id='newsletter_div'>" +
-                    "<p id='seven_text'>" +
-                        "Sign up for our newsletter" +
-                    "</p>" +
-                    "<div class='klaviyo-form-RBSHP6'></div>" +
-                    "</div>"+
+                    "<div id='newsletter_div_2'>" +
+                        "<p id='seven_text'>" +
+                            "Sign up for our newsletter" +
+                        "</p>" +
+                        "<div class='klaviyo-form-RBSHP6'></div>" +
+                        "</div>" +
+                    "</div>" +
             "</div>"
         );
 }
