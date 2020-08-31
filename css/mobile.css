@@ -20,7 +20,7 @@
     display: grid;
     width: 100%;
     grid-template-rows: 7.5em;
-    grid-template-columns: 50% 14% 10% 18%;
+    grid-template-columns: 50% 30% 12% 8%;
     background-color: rgb(21, 21, 21);
 }
 
@@ -40,21 +40,21 @@
 }
 
 #one_menu_div {
-    width: auto;
+    width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: right;
     grid-row-start: 1;
     grid-row-end: 1;
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 #one_menu {
-    width: auto;
+    width: 100%;
 }
 
 #one_menu_img {
-    width: auto;
+    width: 100%;
     
 }
 /*========================================================================================================================================*/
@@ -107,6 +107,8 @@
     display: grid;
     grid-template-rows: auto 56% auto;
     grid-template-columns: auto 24.4% auto;
+    background-color: rgb(173, 129, 86);
+    padding-bottom: 0.25em;
 }
 
 #three_img_div {
@@ -143,12 +145,14 @@
 
 #four {
     width: auto;
-    height: 30em;
+    height: auto;
     display: grid;
-    grid-template-rows: 10% 60% 30%;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: 5% 90% 5%;
     margin-right: auto;
     margin-left: auto;
     background-color: rgb(21, 21, 21);
+    padding-top: 2em;
 }
 
 #four_h1 {
@@ -159,15 +163,20 @@
     font-size: 4em;
     margin: auto;
     width: 80%;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 #four_text_box_div {
-    display: grid;
     width: 100%;
     height: auto;
     text-align: center;
     grid-row-start: 2;
     grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 #four_text {
     color: rgb(225, 213, 186);
@@ -183,44 +192,68 @@
     height: auto;
     grid-row-start: 3;
     grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-columns: auto 40% 40% auto;
+    grid-template-rows: 32% 32%;
 }
 
 #four_weekdays_div {
-    width: 100%;
-    height: auto;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+
 }
 
 #four_weekdays {
+    letter-spacing: 2px;
+    word-spacing: 2px;
     color: rgb(173, 129, 86);
     font-size: 1.3em;
     font-family: "Goudy Bookletter 1911";
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right;
+    margin-right: 0.5em;
 }
 
 #four_weekdays_time {
+    letter-spacing: 2px;
+    word-spacing: 2px;
     color: rgb(225, 213, 186);
     font-size: 1.1em;
     font-family: "Goudy Bookletter 1911";
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: left;
+    margin-left: 0.5em;
 }
 
 #four_weekends_div {
-    width: 100%;
-    height: auto;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+
 }
 
 #four_weekends {
+    letter-spacing: 2px;
+    word-spacing: 2px;
     color: rgb(173, 129, 86);
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-family: "Goudy Bookletter 1911";
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right;
+    margin-right: 0.5em;
 }
 
 #four_weekends_time {
+    letter-spacing: 2px;
+    word-spacing: 2px;
     color: rgb(225, 213, 186);
     font-size: 1.1em;
     font-family: "Goudy Bookletter 1911";
+    grid-column-start: 3;
+    grid-column-end: 3;
+    width: 100%;
+    text-align: left;
+    margin-left: 0.5em;
 }
 /*========================================================================================================================================*/
 /*============================================---------- SECTION FIVE -----------=========================================================*/
@@ -239,23 +272,28 @@
 }
 
 #five_img {
-    width: 10%;
+    width: 100%;
     height: auto;
     position: relative;
+    padding-top: 0.35em;
 }
 
 #five_text_div {
-
+    height: auto;
+    width: 100%;
     display: grid;
-
+    grid-template-rows: auto;
 }
 
 #five_h1 {
-    font-size: 3.2em;
-
-    font-family: "madlove2regular";
     font-size: 4em;
+    font-family: "madlove2regular";
     font-weight: 300;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%;
+    margin: auto;
+    padding-top: 1em;
 }
 
 #five_p {
@@ -266,20 +304,26 @@
     font-weight: 500;
     word-spacing: 4px;
     letter-spacing: 4px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-bottom: 1em;
 }
 
 #five_h4_div {
-
-    display: grid;
-
+    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    margin-bottom: 3em;
 }
 
 #five_h4 {
+    width: 55%;
+    margin: auto;
     word-spacing: 2px;
     letter-spacing: 2px;
     border: solid 2px rgb(225, 213, 186);
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
     text-align: top;
     font-size: 1.1em;
     font-weight: 500;
@@ -301,45 +345,58 @@
 }
 
 #six_img {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
 #six_text_div {
-
+    height: auto;
+    width: 100%;
     display: grid;
-
+    grid-template-rows: auto;
 }
 
 #six_h1 {
     font-size: 4em;
-
     font-family: "madlove2regular";
     font-weight: 300;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%;
+    margin: auto;
+    padding-top: 1em;
 }
 
 #six_p {
     font-size: 1.2em;
-
+    grid-row-start: 2;
+    grid-row-end: 2;
     color: rgb(225, 213, 186);
     font-weight: 500;
     word-spacing: 4px;
     letter-spacing: 4px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-bottom: 1em;
 }
 
 #six_h4_div {
-
-    display: grid;
-
+    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    margin-bottom: 3em;
 }
 
 #six_h4 {
+    width: 55%;
+    margin: auto;
     word-spacing: 2px;
     letter-spacing: 2px;
     border: solid 2px rgb(225, 213, 186);
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    text-align: top;
     font-size: 1.1em;
     font-weight: 500;
 }
@@ -353,48 +410,63 @@
 /*============================================----------- SECTION SEVEN ------------=========================================================*/
 /*========================================================================================================================================*/
 #seven {
-    display: grid;
 
     width: 100%;
 }
 
-#seven_text {
-    color: rgb(225, 213, 186);
-
-    text-align: right;
-    padding-top: 0.75em;
-    padding-right: 0.75em;
-}
-
 #seven_socials_div {
 
-    display: grid;
- 
 }
 
 #seven_facebook_a {
+    text-align: right;
+    margin: auto;
+    width: 100%;
 }
 
 #seven_instagram_a {
+    text-align: left;
+    margin: auto;
+    width: 100%;
 }
 
 #seven_facebook {
-    width: 75%;
-
+    width: 17%;
+    padding: 2em;
 }
 
 #seven_instagram {
-    width: 75%;
-
+    width: 17%;
+    padding: 2em;
 }
 
+#seven_text {
+    color: rgb(225, 213, 186);
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: -0.5em;
+    font-size: 1.2em;
+}
 /*========================================================================================================================================*/
 /*============================================-----------MAILING LIST------------=========================================================*/
 /*========================================================================================================================================*/
 
+#newsletter_div_2 {
+    background-color: rgb(22, 22, 22);
+    padding-bottom: 1em;
+}
+#newsletter_div {
+    background-color: rgb(173, 129, 86);
+    padding-top: 0.35em;
+}
+
 .klaviyo-form-RBSHP6 {
     background-color: rgb(22, 22, 22);
-
+    width: 65%;
+    margin: auto;
 }
 
 /*========================================================================================================================================*/
