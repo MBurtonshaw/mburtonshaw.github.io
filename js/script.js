@@ -61,33 +61,47 @@ function mobile() {
         "<a id='one_menu_a'><img src='img/mobile_menu_icon.png' id='one_menu-img'></a>"
     );
         $("#four").html(
-        "<div id='four_text_box_div'>" +
             "<h1 id='four_h1'>" +
-            "Lorem ipsum sit dolor" +
+                "Lorem ipsum sit dolor" +
             "</h1>" +
-            "<p id='four_text'>" +
-            "A cocktail lounge with focus on hospitality and craft located next to Lincoln Park in the historic Tremont neighborhood of Cleveland." +
-            "</p>" +
-            "</div>" +
-            "<div id='four_time_div'>" +
-            "<div id='four_weekdays_div'>" +
-            "<p id='four_weekdays'>" +
-            "Wed - Sat" +
-            "</p>" +
-            "<p id='four_weekdays_time'>" +
-            "4pm - 10pm" +
-            "</p>" +
-            "</div>" +
-            "<div id='four_weekends_div'>" +
-            "<p id='four_weekends'>" +
-            "Sat &amp; Sun" +
-            "</p>" +
-            "<p id='four_weekends_time'>" +
-            "10am - 2pm" +
-            "</p>" +
-            "</div>" +
-            "</div>)"
+            "<div id='four_text_box_div'>" +
+                "<p id='four_text'>" +
+                    "A cocktail lounge with focus on hospitality and craft located next to Lincoln Park in the historic Tremont neighborhood of Cleveland." +
+                "</p>" +
+                "<div id='four_time_div'>" +
+                    "<p id='four_weekdays'>" +
+                    "Wed - Sat" +
+                    "</p>" +
+                    "<p id='four_weekdays_time'>" +
+                    "4pm - 10pm" +
+                    "</p>" +
+                    "<p id='four_weekends'>" +
+                    "Sat &amp; Sun" +
+                    "</p>" +
+                    "<p id='four_weekends_time'>" +
+                    "10am - 2pm" +
+                    "</p>" +
+                "</div>" +
+            "</div>"
     );
+        $("#seven").html(
+                "<div id='seven_socials_div''>" +
+                    "<a target='_blank' href='https://facebook.com/cloakanddaggercle'>" + 
+                        "<img id='seven_facebook' src='img/CD_Facebook.png' />" +
+                    "</a>" +
+
+                    "<a target='_blank' href='https://instagram.com/cloakanddaggercle'>" + 
+                        "<img id='seven_instagram' src='img/CD_Instagram.png' />" +
+                    "</a>" +
+                "</div>" +
+                "<div id='newsletter_div'>" +
+                    "<p id='seven_text'>" +
+                        "Sign up for our newsletter" +
+                    "</p>" +
+                    "<div class='klaviyo-form-RBSHP6'></div>" +
+                    "</div>"+
+            "</div>"
+        );
 }
 
 if (window.innerWidth > 1049) {
