@@ -1,3 +1,4 @@
+@media all and (min-width: 500px) {
 #body {
     background-color: rgb(21, 21, 21);
     text-align: center;
@@ -20,7 +21,7 @@
     display: grid;
     width: 100%;
     grid-template-rows: 7.5em;
-    grid-template-columns: 50% 30% 12% 8%;
+    grid-template-columns: 50% 23% 12% 8% auto ;
     background-color: rgb(21, 21, 21);
 }
 
@@ -31,6 +32,7 @@
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 1;
+    margin-left: auto;
 }
 
 #one_img {
@@ -40,13 +42,13 @@
 }
 
 #one_menu_div {
-    width: 100%;
+    width: auto;
     height: 100%;
     text-align: right;
     grid-row-start: 1;
     grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 6;
 }
 
 #one_menu {
@@ -68,8 +70,10 @@
 }
 
 #two_contacts_div {
+    width: auto;
     display: grid;
-    grid-template-columns: 4% 62% 6% 28%;
+    grid-template-rows: auto;
+    grid-template-columns: 70% 30%;
 }
 
 .two_contacts {
@@ -79,24 +83,23 @@
 }
 
 #address {
-    font-size: 1.2em;
-    grid-column-start: 2;
-    grid-column-end: 2;
+    font-size: 1em;
+    grid-column-start: 1;
+    grid-column-end: 1;
     text-align: right;
+    margin-right: 0;
 }
 
 #phone {
-    grid-column-start: 4;
-    grid-column-end: 4;
-    font-size: 1.2em;
+    font-size: 1em;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: left;
+    padding-left: 0.5em;
+    text-decoration: none;
+    color: black;
 }
 
-#hidden_img {
-    width: 65%;
-    margin: auto;
-    grid-column-start: 3;
-    grid-column-end: 3;
-}
 
 /*========================================================================================================================================*/
 /*============================================---------- SECTION THREE -----------=========================================================*/
@@ -153,6 +156,7 @@
     margin-left: auto;
     background-color: rgb(21, 21, 21);
     padding-top: 2em;
+    padding-bottom: 1em;
 }
 
 #four_h1 {
@@ -468,7 +472,49 @@
     width: 65%;
     margin: auto;
 }
-
+}
 /*========================================================================================================================================*/
 /*========================================-----------MEDIA QUERY: MOBILE------------======================================================*/
 /*========================================================================================================================================*/
+@media all and (max-width: 499px) {
+#one {
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 7.5em;
+    grid-template-columns: 50% 23% auto 8% 12% ;
+    background-color: rgb(21, 21, 21);
+    }
+    
+#one_img_div {
+    width: 100%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#one_img {
+    width: 100%;
+    height: auto;
+    padding: 1.5em;
+}
+
+#one_menu_div {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+    
+#address {
+    font-size: 0.75em;
+}
+
+#phone {
+    font-size: 0.75em;
+}
