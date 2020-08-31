@@ -106,9 +106,9 @@ function mobile() {
         );
 }
 
-if (window.innerWidth > 1049) {
+if (window.innerWidth > 1201) {
     desktop();
 }
-if (window.innerWidth < 1050) {
+if (window.innerWidth < 1200) {
     mobile();
 }
