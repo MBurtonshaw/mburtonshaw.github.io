@@ -474,11 +474,14 @@
     #one_img_div {
         grid-column-start: 2;
         grid-column-end: 5;
+        width: 100%;
+        height: auto;
     }
 
     #one_img {
         width: 100%;
         height: auto;
+        margin: auto;
     }
 
     #one_menu_div {
