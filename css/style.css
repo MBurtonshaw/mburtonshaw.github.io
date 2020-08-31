@@ -1,15 +1,26 @@
-#body {
+/*========================================================================================================================================*/
+/*========================================================================================================================================*/
+/*=============================================-------CLOAK AND DAGGER-------=============================================================*/
+/*========================================================================================================================================*/
+/*========================================================================================================================================*/
+
+/*  
+    font: "https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap"
+    dark background color: rgb(21, 21, 21);
+    light background color: rgb(173, 129, 86);
+    light text color: rgb(225, 213, 186);
+*/
+body {
     background-color: rgb(21, 21, 21);
-    text-align: center;
     font-family: "Goudy Bookletter 1911";
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 #container {
-    width: 100%;
+    width: 1349px;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgb(21, 21, 21);
-    text-align: center;
 }
 
 /*========================================================================================================================================*/
@@ -20,59 +31,111 @@
     display: grid;
     width: 100%;
     grid-template-rows: 7.5em;
-    grid-template-columns: 40% 10% 25% 25%;
-    background-color: rgb(21, 21, 21);
+    grid-template-columns: 23.5em 20em 35em 5.7em;
 }
 
 #one_img_div {
     width: 100%;
     height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 1;
     grid-column-start: 1;
-    grid-column-end: 3;
-    padding-top: 2em;
+    grid-column-end: 1;
 }
 
 #one_img {
-    width: 80%;
+    width: 100%;
     height: auto;
+    padding: 1.5em;
 }
 
 #one_menu_div {
     width: 100%;
     height: 100%;
-    text-align: right;
-    grid-column-start: 4;
-    grid-column-end: 4;
-    padding-top: 1em;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
 
 #one_menu {
-    width: auto;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 8.7em 8.7em 8.7em 8.7em;
+    grid-template-rows: 100%;
+    text-align: center;
+    width: 100%;
 }
 
-#one_menu_img {
-    width: auto;
+.one_menu {
+    padding: 1.5em;
+    font-size: 1.1em;
+    letter-spacing: 2px;
 }
+
+#one_menu_first {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#one_menu_second {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+}
+
+#one_menu_third {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 100%;
+    width: 100%;
+}
+
+#one_menu_fourth {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    height: 100%;
+    width: 100%;
+}
+
+.one_menu_a {
+    color: rgb(225, 213, 186);
+    text-decoration: none;
+}
+.one_menu_a:hover {
+    color: rgb(173, 129, 86);
+}
+
 /*========================================================================================================================================*/
 /*============================================---------- SECTION TWO ------------=========================================================*/
 /*========================================================================================================================================*/
 #two {
     position: relative;
-    width: auto;
+    display: grid;
+    grid-template-rows: 3em;
+    grid-template-columns: 14em 60em 10.2em;
+    width: 100%;
     height: auto;
     background-color: rgb(173, 129, 86);
 }
 
 #two_contacts_div {
-    width: auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    grid-template-columns: 58% 0.5% 16.5% 25%;
 }
 
 .two_contacts {
-    letter-spacing: 3x;
-    word-spacing: 3px;
+    letter-spacing: 2.5px;
+    word-spacing: 2px;
     font-weight: 100;
 }
 
@@ -81,75 +144,61 @@
     grid-column-start: 1;
     grid-column-end: 1;
     text-align: right;
-    margin-right: 0;
 }
 
 #phone {
+    grid-column-start: 3;
+    grid-column-end: 3;
     font-size: 1em;
-    grid-column-start: 2;
-    grid-column-end: 2;
     text-align: left;
-    padding-left: 0.5em;
-    text-decoration: none;
-    color: black;
 }
-
 /*========================================================================================================================================*/
 /*============================================---------- SECTION THREE -----------=========================================================*/
 /*========================================================================================================================================*/
 #three {
+    display: grid;
     height: 100%;
     width: 100%;
-    display: grid;
-    grid-template-rows: auto 56% auto;
-    grid-template-columns: auto 24.4% auto;
-    background-color: rgb(173, 129, 86);
-    padding-bottom: 0.25em;
+    grid-template-columns: 33.6em 14.5em 36.1em;
+    grid-template-rows: 10em 22em 8em;
 }
 
 #three_img_div {
-    height: 100%;
-    width: 100%;
-    grid-row-start: 1;
-    grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%;
 }
 
 #three_img {
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
 #three_img_small_div {
-    height: 100%;
-    width: 100%;
-    grid-row-start: 2;
-    grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 100%;
+    width: 100%;
 }
 
 #three_img_small {
     height: 100%;
     width: 100%;
 }
-
 /*========================================================================================================================================*/
 /*============================================---------- SECTION FOUR ------------=========================================================*/
 /*========================================================================================================================================*/
 
 #four {
-    width: auto;
-    height: auto;
     display: grid;
-    grid-template-rows: 30% 70%;
-    grid-template-columns: 5% 90% 5%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: rgb(21, 21, 21);
-    padding-top: 2em;
-    padding-bottom: 1em;
+    grid-template-rows: 2em 8em 7em 11em;
+    grid-template-columns: auto 50em auto;
+    width: 100%;
 }
 
 #four_h1 {
@@ -158,97 +207,80 @@
     font-family: "madlove2regular";
     font-weight: 300;
     font-size: 4em;
-    margin: auto;
-    width: 80%;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-#four_text_box_div {
-    width: 100%;
-    height: auto;
-    text-align: center;
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
 }
-#four_text {
-    color: rgb(225, 213, 186);
-    font-size: 1.6em;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    font-weight: 100;
-    font-family: "Goudy Bookletter 1911";
-}
 
-#four_time_div {
-    width: 100%;
-    height: auto;
+#four_text_box_div {
     grid-row-start: 3;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 2;
-    display: grid;
-    grid-template-columns: auto 40% 40% auto;
-    grid-template-rows: 32% 32%;
+}
+#four_text {
+    color: rgb(225, 213, 186);
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 100;
+}
+
+#four_time_div {
+    width: 100%;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 
 #four_weekdays_div {
+    display: grid;
+    grid-template-columns: 30% 19.5% 20% 30.5%;
+    grid-template-rows: 3em;
 }
 
 #four_weekdays {
-    letter-spacing: 2px;
-    word-spacing: 2px;
     color: rgb(173, 129, 86);
-    font-size: 1.3em;
-    font-family: "Goudy Bookletter 1911";
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: right;
-    margin-right: 0.5em;
+    margin-right: 0.25em;
+    font-size: 1.2em;
 }
 
 #four_weekdays_time {
-    letter-spacing: 2px;
-    word-spacing: 2px;
     color: rgb(225, 213, 186);
-    font-size: 1.1em;
-    font-family: "Goudy Bookletter 1911";
     grid-column-start: 3;
     grid-column-end: 3;
     text-align: left;
-    margin-left: 0.5em;
+    margin-left: 0.25em;
+    font-size: 1.2em;
 }
 
 #four_weekends_div {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-template-rows: 2em;
 }
 
 #four_weekends {
-    letter-spacing: 2px;
-    word-spacing: 2px;
     color: rgb(173, 129, 86);
-    font-size: 1.3em;
-    font-family: "Goudy Bookletter 1911";
+    text-align: right;
+    margin-right: 0.25em;
     grid-column-start: 2;
     grid-column-end: 2;
-    text-align: right;
-    margin-right: 0.5em;
+    font-size: 1.2em;
 }
 
 #four_weekends_time {
-    letter-spacing: 2px;
-    word-spacing: 2px;
     color: rgb(225, 213, 186);
-    font-size: 1.1em;
-    font-family: "Goudy Bookletter 1911";
     grid-column-start: 3;
     grid-column-end: 3;
-    width: 100%;
     text-align: left;
-    margin-left: 0.5em;
+    margin-left: 0.25em;
+    font-size: 1.2em;
 }
 /*========================================================================================================================================*/
 /*============================================---------- SECTION FIVE -----------=========================================================*/
@@ -257,37 +289,42 @@
     background-color: rgb(173, 129, 86);
     text-align: center;
     display: grid;
-
+    grid-template-columns: 3em 20em 6em 8em 47.2em;
+    grid-template-rows: 1.5em 11em 25.2em;
     width: 100%;
 }
 #five_img_div {
     width: 100%;
     height: 100%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
 }
 
 #five_img {
     width: 100%;
     height: auto;
     position: relative;
-    padding-top: 0.35em;
 }
 
 #five_text_div {
-    height: auto;
-    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 7em 5em 4em;
+    grid-template-columns: 21em;
 }
 
 #five_h1 {
-    font-size: 4em;
-    font-family: "madlove2regular";
-    font-weight: 300;
+    font-size: 3.2em;
     grid-row-start: 1;
     grid-row-end: 1;
-    width: 100%;
-    margin: auto;
-    padding-top: 1em;
+    font-family: "madlove2regular";
+    font-size: 4em;
+    font-weight: 300;
 }
 
 #five_p {
@@ -298,30 +335,27 @@
     font-weight: 500;
     word-spacing: 4px;
     letter-spacing: 4px;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    padding-bottom: 1em;
 }
 
 #five_h4_div {
-    width: 100%;
     grid-row-start: 3;
     grid-row-end: 3;
-    margin-bottom: 3em;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2.25em 16em;
 }
 
 #five_h4 {
-    width: 55%;
-    margin: auto;
     word-spacing: 2px;
     letter-spacing: 2px;
     border: solid 2px rgb(225, 213, 186);
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: top;
     font-size: 1.1em;
     font-weight: 500;
 }
+
 /*========================================================================================================================================*/
 /*============================================---------- SECTION SIX -------------=========================================================*/
 /*========================================================================================================================================*/
@@ -329,12 +363,17 @@
     background-color: rgb(173, 129, 86);
     text-align: center;
     display: grid;
-
+    grid-template-columns: 30em 25em 4.2em 21em 4em;
+    grid-template-rows: 1em 8em 20em 8.5em 1.5em;
     width: 100%;
 }
 #six_img_div {
     width: 100%;
     height: 100%;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 #six_img {
@@ -344,21 +383,21 @@
 }
 
 #six_text_div {
-    height: auto;
-    width: 100%;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 7em 5em 4em;
+    grid-template-columns: auto;
 }
 
 #six_h1 {
     font-size: 4em;
-    font-family: "madlove2regular";
-    font-weight: 300;
     grid-row-start: 1;
     grid-row-end: 1;
-    width: 100%;
-    margin: auto;
-    padding-top: 1em;
+    font-family: "madlove2regular";
+    font-weight: 300;
 }
 
 #six_p {
@@ -369,27 +408,22 @@
     font-weight: 500;
     word-spacing: 4px;
     letter-spacing: 4px;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    padding-bottom: 1em;
 }
 
 #six_h4_div {
-    width: 100%;
     grid-row-start: 3;
     grid-row-end: 3;
-    margin-bottom: 3em;
+    display: grid;
+    grid-template-rows: 5.5em;
+    grid-template-columns: 3.5em 14em 1em;
 }
 
 #six_h4 {
-    width: 55%;
-    margin: auto;
     word-spacing: 2px;
     letter-spacing: 2px;
     border: solid 2px rgb(225, 213, 186);
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
-    text-align: top;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-size: 1.1em;
     font-weight: 500;
 }
@@ -397,103 +431,69 @@
     text-decoration: none;
     color: black;
     width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 /*========================================================================================================================================*/
 /*============================================----------- SECTION SEVEN ------------=========================================================*/
 /*========================================================================================================================================*/
 #seven {
+    display: grid;
+    grid-template-rows: 2em 5em 1em;
+    grid-template-columns: 2em 12em 15em 20em 35em;
     width: 100%;
-}
-
-#seven_socials_div {
-}
-
-#seven_facebook_a {
-    text-align: right;
-    margin: auto;
-    width: 100%;
-}
-
-#seven_instagram_a {
-    text-align: left;
-    margin: auto;
-    width: 100%;
-}
-
-#seven_facebook {
-    width: 17%;
-    padding: 2em;
-}
-
-#seven_instagram {
-    width: 17%;
-    padding: 2em;
 }
 
 #seven_text {
     color: rgb(225, 213, 186);
-    background-color: rgb(22, 22, 22);
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    padding-top: 2em;
-    padding-bottom: -0.5em;
-    font-size: 1.2em;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: right;
+    padding-top: 0.75em;
+    padding-right: 0.75em;
 }
+
+#seven_socials_div {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+}
+
+#seven_facebook_a {
+}
+
+#seven_instagram_a {
+}
+
+#seven_facebook {
+    width: 75%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#seven_instagram {
+    width: 75%;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
 /*========================================================================================================================================*/
 /*============================================-----------MAILING LIST------------=========================================================*/
 /*========================================================================================================================================*/
 
-#newsletter_div_2 {
-    background-color: rgb(22, 22, 22);
-    padding-bottom: 1em;
-}
-#newsletter_div {
-    background-color: rgb(173, 129, 86);
-    padding-top: 0.35em;
-}
-
 .klaviyo-form-RBSHP6 {
     background-color: rgb(22, 22, 22);
-    width: 65%;
-    margin: auto;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
 /*========================================================================================================================================*/
 /*========================================-----------MEDIA QUERY: MOBILE------------======================================================*/
 /*========================================================================================================================================*/
-@media all and (max-width: 500px) {
-    #one {
-        grid-template-columns: 5% 20% 25% 25% 20% 5%;
-        width: auto;
-    }
-
-    #one_img_div {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    #one_img {
-        width: auto;
-        height: 20%;
-    }
-
-    #one_menu_div {
-        width: 100%;
-        height: 100%;
-        text-align: right;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 5;
-        grid-column-end: 5;
-        padding-top: 1.25em;
-    }
-
-    #address {
-        font-size: 0.75em;
-    }
-
-    #phone {
-        font-size: 0.75em;
-    }
-}
