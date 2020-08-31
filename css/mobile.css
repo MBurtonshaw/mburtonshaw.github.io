@@ -91,6 +91,9 @@
     text-align: left;
     padding-left: 0.5em;
     text-decoration: none;
+}
+
+#phone:active {
     color: black;
 }
 
@@ -464,18 +467,18 @@
 /*========================================================================================================================================*/
 @media all and (max-width: 500px) {
     #one {
-        grid-template-columns: 5% 20% 25% 25% 20% 5%;
+        grid-template-columns: 5% 20% auto 25% 15% 20% 5%;
         width: auto;
     }
 
     #one_img_div {
         grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-end: 5;
     }
 
     #one_img {
-        width: auto;
-        height: 20%;
+        width: 100%;
+        height: auto;
     }
 
     #one_menu_div {
@@ -484,8 +487,8 @@
         text-align: right;
         grid-row-start: 1;
         grid-row-end: 1;
-        grid-column-start: 5;
-        grid-column-end: 5;
+        grid-column-start: 6;
+        grid-column-end: 6;
         padding-top: 1.25em;
     }
 
