@@ -1,31 +1,43 @@
 function myFn() {
     if (clock >= 6 && clock <= 10) {
         $("#three_img").attr("src", "");
-        $("#three_img").attr("src", "img/GalleryImage_1.jpg");
+        $("#three_img").attr("src", "img/slideshow_2.png");
     }
 }
+
 function myFn2() {
     if (clock >= 11 && clock <= 15) {
         $("#three_img").attr("src", "");
-        $("#three_img").attr("src", "img/MenuImage_1.jpg");
+        $("#three_img").attr("src", "img/slideshow_1.png");
     }
 }
+
+function myFn4() {
+    if (clock >= 16 && clock <= 20) {
+            $("#three_img").attr("src", "");
+            $("#three_img").attr("src", "img/slideshow_3.png");
+    }
+}
+
+function myFn5() {
+    if (clock >= 21 && clock <= 25) {
+            $("#three_img").attr("src", "");
+            $("#three_img").attr("src", "img/slideshow_4.png");
+    }
+}
+
 function myFn3() {
     if (clock >= 1 && clock <= 5) {
-        if (window.innerWidth < 1050) {
             $("#three_img").attr("src", "");
             $("#three_img").attr("src", "img/HeaderImage_2.jpg");
-        } else {
-            $("#three_img").attr("src", "");
-            $("#three_img").attr("src", "img/HeaderImage_1.jpg");
-        }
     }
 }
+
 let clock = 0;
 console.log(window.innerWidth);
 function timer() {
     clock += 1;
-    if (clock === 15) {
+    if (clock === 20) {
         clock = -1;
         clock += 1;
     }
@@ -36,16 +48,22 @@ setInterval(timer, 1000);
 setInterval(myFn, 1000);
 setInterval(myFn2, 1000);
 setInterval(myFn3, 1000);
+setInterval(myFn4, 1000);
+setInterval(myFn5, 1000);
 
 for (let i = 0; i < 1; i++) {
-    if (clock === 15) {
+    if (clock === 20) {
         clearInterval(myFn);
         clearInterval(myFn2);
         clearInterval(myFn3);
+        clearInterval(myFn4);
+        clearInterval(myFn5);
     }
-    setInterval(myFn, 5000);
-    setInterval(myFn2, 5000);
-    setInterval(myFn3, 5000);
+    setInterval(myFn, 1000);
+    setInterval(myFn2, 1000);
+    setInterval(myFn3, 1000);
+    setInterval(myFn4, 1000);
+    setInterval(myFn5, 1000);
 }
 
 function desktop() {
