@@ -13,14 +13,14 @@ function myFn2() {
 }
 
 function myFn4() {
-    if (clock >= 16 && clock <= 20) {
+    if (clock >= 16 && clock <= 21) {
 
             $("#three_img").attr("src", "img/slideshow_3.png");
     }
 }
 
 function myFn5() {
-    if (clock >= 21 && clock <= 25) {
+    if (clock >= 22 && clock <= 25) {
 
             $("#three_img").attr("src", "img/slideshow_4.png");
     }
@@ -37,7 +37,7 @@ let clock = 0;
 console.log(window.innerWidth);
 function timer() {
     clock += 1;
-    if (clock === 25) {
+    if (clock === 26) {
         clock = -1;
         clock += 1;
     }
