@@ -148,9 +148,8 @@ $("#one_menu_div").on("click", () => {
     );
     $("#container").css("background-color", "rgb(173, 129, 86");
     $("body").css("background-color", "rgb(173, 129, 86)");
-    
+
     $("#closer_div").on("click", () => {
         location.reload();
     });
-    
 });
