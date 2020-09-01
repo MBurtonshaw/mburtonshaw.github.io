@@ -318,17 +318,19 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
     display: grid;
-    grid-template-rows: 7em 5em 4em;
+    grid-template-rows: 7em 7em auto;
     grid-template-columns: 21em;
+    height: 100%;
+    width: 100%;
 }
 
 #five_h1 {
-    font-size: 3.2em;
     grid-row-start: 1;
     grid-row-end: 1;
     font-family: "madlove2regular";
     font-size: 4em;
     font-weight: 300;
+    color: black;
 }
 
 #five_p {
@@ -392,8 +394,11 @@ body {
     grid-column-start: 4;
     grid-column-end: 4;
     display: grid;
-    grid-template-rows: 7em 5em 4em;
+    grid-template-rows: 7em auto 4em;
     grid-template-columns: auto;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 
 #six_h1 {
@@ -402,6 +407,7 @@ body {
     grid-row-end: 1;
     font-family: "madlove2regular";
     font-weight: 300;
+    color: black;
 }
 
 #six_p {
