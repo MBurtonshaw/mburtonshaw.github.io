@@ -37,19 +37,20 @@ let clock = 0;
 console.log(window.innerWidth);
 function timer() {
     clock += 1;
-    if (clock === 20) {
+    if (clock === 25) {
         clock = -1;
         clock += 1;
     }
+    console.log(clock);
 }
 
 setInterval(timer, 1000);
 
-setInterval(myFn, 1000);
-setInterval(myFn2, 1000);
-setInterval(myFn3, 1000);
-setInterval(myFn4, 1000);
-setInterval(myFn5, 1000);
+setInterval(myFn, 1500);
+setInterval(myFn2, 1500);
+setInterval(myFn3, 1500);
+setInterval(myFn4, 500); //takes longer to load
+setInterval(myFn5, 1500);
 
 for (let i = 0; i < 1; i++) {
     if (clock === 20) {
