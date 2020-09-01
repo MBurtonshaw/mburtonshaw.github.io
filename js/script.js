@@ -1,34 +1,34 @@
 function myFn() {
     if (clock >= 6 && clock <= 10) {
-        $("#three_img").attr("src", "");
+
         $("#three_img").attr("src", "img/slideshow_2.png");
     }
 }
 
 function myFn2() {
     if (clock >= 11 && clock <= 15) {
-        $("#three_img").attr("src", "");
+
         $("#three_img").attr("src", "img/slideshow_1.png");
     }
 }
 
 function myFn4() {
     if (clock >= 16 && clock <= 20) {
-            $("#three_img").attr("src", "");
+
             $("#three_img").attr("src", "img/slideshow_3.png");
     }
 }
 
 function myFn5() {
     if (clock >= 21 && clock <= 25) {
-            $("#three_img").attr("src", "");
+
             $("#three_img").attr("src", "img/slideshow_4.png");
     }
 }
 
 function myFn3() {
     if (clock >= 1 && clock <= 5) {
-            $("#three_img").attr("src", "");
+
             $("#three_img").attr("src", "img/HeaderImage_2.jpg");
     }
 }
