@@ -33,22 +33,23 @@ body {
     display: grid;
     width: 100%;
     grid-template-rows: 7.5em;
-    grid-template-columns: 23.5em 20em 35em 5.7em;
+    grid-template-columns: 28em auto auto;
 }
 
 #one_img_div {
-    width: 100%;
+    width: 90%;
     height: 100%;
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 1;
+    padding: 1em;
 }
 
 #one_img {
     width: 100%;
     height: auto;
-    padding: 1.5em;
+    margin: auto;
 }
 
 #one_menu_div {
@@ -64,16 +65,18 @@ body {
 #one_menu {
     list-style-type: none;
     display: grid;
-    grid-template-columns: 8.7em 8.7em 8.7em 8.7em;
+    grid-template-columns: auto;
     grid-template-rows: 100%;
-    text-align: center;
-    width: 100%;
+    width: 90%;
+    height: auto;
 }
 
 .one_menu {
-    padding: 1.5em;
     font-size: 1.1em;
     letter-spacing: 2px;
+    width: auto;
+    height: auto;
+    padding-top: 1.35em;
 }
 
 #one_menu_first {
@@ -178,7 +181,7 @@ body {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -299,17 +302,18 @@ body {
     background-color: rgb(173, 129, 86);
     text-align: center;
     display: grid;
-    grid-template-columns: 3em 20em 6em 8em 47.2em;
-    grid-template-rows: 1.5em 11em 25.2em;
+    grid-template-columns: auto 20em auto 47.2em;
+    grid-template-rows: 1.5em 5em 11em auto;
     width: 100%;
 }
 #five_img_div {
     width: 100%;
     height: 100%;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 5;
     grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-end: 4;
+    margin: auto;
 }
 
 #five_img {
@@ -375,17 +379,17 @@ body {
     background-color: rgb(173, 129, 86);
     text-align: center;
     display: grid;
-    grid-template-columns: 30em 25em 4.2em 21em 4em;
-    grid-template-rows: 1em 8em 20em 8.5em 1.5em;
+    grid-template-columns: 47.2em auto 20em auto;
+    grid-template-rows: 1.5em 4em 11em auto 1.5em;
     width: 100%;
 }
 #six_img_div {
     width: 100%;
-    height: 100%;
+    height: auto;
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
 }
 
 #six_img {
@@ -397,8 +401,8 @@ body {
 #six_text_div {
     grid-row-start: 3;
     grid-row-end: 3;
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
     display: grid;
     grid-template-rows: 7em auto 4em;
     grid-template-columns: auto;
@@ -456,7 +460,7 @@ body {
 #seven {
     display: grid;
     grid-template-rows: 2em 5em 1em;
-    grid-template-columns: 2em 12em 15em 20em 35em;
+    grid-template-columns: 2em 12em 15em 20em;
     width: 100%;
 }
 
