@@ -128,7 +128,8 @@ if (window.innerWidth < 1200) {
 $("#one_menu_div").on("click", () => {
     $("#container").addClass("clicker");
     $("#container").html(
-        "<h2 class='mobile_menu' id='mobile_menu'><a target='_blank' href='menu.html'>" +
+        "<div id='divvest'>" +
+            "<h2 class='mobile_menu' id='mobile_menu'><a target='_blank' href='menu.html'>" +
             "MENU" +
             "</a></h2>" +
             "<h2 class='mobile_menu' id='mobile_about'><a target='_blank' href='contact.html'>" +
@@ -140,6 +141,7 @@ $("#one_menu_div").on("click", () => {
             "<h2 class='mobile_menu' id='mobile_contact'><a target='_blank' href='contact.html'>" +
             "CONTACT" +
             "</a></h2>" +
+            "</div>" +
             "<div id='closer_div'>" +
             "<h2 id='closer'>" +
             " X " +
