@@ -535,7 +535,7 @@
     top: 0;
     padding-right: 1em;
     height: auto;
-    width: 100%;
+    width: 10%;
 }
 
 #closer {
@@ -555,7 +555,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 74px 74px 74px 74px;
+    grid-template-rows: auto;
 }
 
 #mobile_menu {
