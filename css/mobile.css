@@ -540,6 +540,8 @@
     right: 0;
     top: 0;
     padding-right: 2em;
+    height: auto;
+    width: 100%;
 }
 
 #closer {
@@ -563,6 +565,8 @@
     grid-template-rows: 25% 25% 25% 25%;
     text-align: center;
     margin: auto;
+    width: 100%;
+    height: 100%;
 }
 
 #mobile_menu {
