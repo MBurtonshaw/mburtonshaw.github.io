@@ -90,11 +90,13 @@
     grid-column-end: 2;
     text-align: left;
     padding-left: 0.5em;
-    text-decoration: none;
 }
 
-#phone:active {
+#phone a {
     color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    word-spacing: -1px;
 }
 
 /*========================================================================================================================================*/
