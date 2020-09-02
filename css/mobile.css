@@ -277,9 +277,10 @@
 
 #five_text_div {
     height: auto;
-    width: 100%;
     display: grid;
     grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
 }
 
 #five_h1 {
@@ -301,8 +302,6 @@
     font-weight: 500;
     word-spacing: 4px;
     letter-spacing: 4px;
-    grid-row-start: 2;
-    grid-row-end: 2;
     padding-bottom: 1em;
 }
 
@@ -348,7 +347,8 @@
 
 #six_text_div {
     height: auto;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: grid;
     grid-template-rows: auto;
 }
@@ -372,8 +372,6 @@
     font-weight: 500;
     word-spacing: 4px;
     letter-spacing: 4px;
-    grid-row-start: 2;
-    grid-row-end: 2;
     padding-bottom: 1em;
 }
 
