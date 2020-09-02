@@ -562,7 +562,7 @@
     grid-column-end: 2;
     display: grid;
     grid-template-columns: auto 90% auto;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: auto 22% 22% 22% 22% auto;
     text-align: center;
     margin: auto;
     width: 100%;
@@ -570,29 +570,37 @@
 }
 
 #mobile_menu {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-#mobile_about {
+    width: 100%;
+    height: auto;
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-#mobile_gallery {
+#mobile_about {
+    width: 100%;
+    height: auto;
     grid-row-start: 3;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-#mobile_contact {
+#mobile_gallery {
+    width: 100%;
+    height: auto;
     grid-row-start: 4;
     grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#mobile_contact {
+    width: 100%;
+    height: auto;
+    grid-row-start: 5;
+    grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 2;
 }
