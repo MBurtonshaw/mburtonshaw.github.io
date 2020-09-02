@@ -24,7 +24,7 @@ function myFn5() {
 
 function myFn3() {
     if (clock >= 0 && clock <= 5) {
-        $("#three_img").attr("src", "img/HeaderImage_2.jpg");
+        $("#three_img").attr("src", "img/slideshow_5.png");
     }
 }
 
