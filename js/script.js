@@ -36,7 +36,7 @@ function timer() {
         clock = -1;
         clock += 1;
     }
-    //console.log(clock);
+    console.log(clock);
 }
 
 setInterval(timer, 1000);
@@ -109,14 +109,10 @@ function mobile() {
             "<img id='seven_instagram' src='img/CD_Instagram.png' />" +
             "</a>" +
             "</div>" +
-            "<div id='newsletter_div'>" +
-            "<div id='newsletter_div_2'>" +
             "<p id='seven_text'>" +
             "Sign up for our newsletter" +
             "</p>" +
             "<div class='klaviyo-form-RBSHP6'></div>" +
-            "</div>" +
-            "</div>" +
             "</div>"
     );
 }
