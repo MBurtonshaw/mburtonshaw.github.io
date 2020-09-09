@@ -133,9 +133,7 @@ function mobile() {
                 "</a></h2>" +
                 "</div>" +
                 "<div id='closer_div'>" +
-                "<h2 id='closer'>" +
-                " X " +
-                "</h2>" +
+                "<img id='closer' src='img/mobile_x.png'>" +
                 "</div>"
         );
         $("#container").css("background-color", "rgb(173, 129, 86");
@@ -153,3 +151,113 @@ if (window.innerWidth > 1200) {
 if (window.innerWidth < 1200) {
     mobile();
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////GALLERY///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*const thyme_pictures = [
+    "img/thyme/thyme_1.png",
+    "img/thyme/thyme_2.png",
+    "img/thyme/thyme_3.png",
+    "img/thyme/thyme_4.png",
+    "img/thyme/thyme_5.png",
+    "img/thyme/thyme_6.png",
+    "img/thyme/thyme_7.png",
+    "img/thyme/thyme_8.png",
+    "img/thyme/thyme_9.png",
+    "img/thyme/thyme_10.png",
+    "img/thyme/thyme_11.png",
+    "img/thyme/thyme_12.png",
+    "img/thyme/thyme_13.png",
+];
+
+const mahalls_pictures = [
+    "img/mahalls/mahalls_1.png",
+    "img/mahalls/mahalls_2.png",
+    "img/mahalls/mahalls_3.png",
+    "img/mahalls/mahalls_4.png",
+    "img/mahalls/mahalls_5.png",
+    "img/mahalls/mahalls_6.png",
+    "img/mahalls/mahalls_7.png",
+    "img/mahalls/mahalls_8.png",
+    "img/mahalls/mahalls_9.png",
+    "img/mahalls/mahalls_10.png",
+    "img/mahalls/mahalls_11.png",
+    "img/mahalls/mahalls_12.png",
+    "img/mahalls/mahalls_13.png",
+    "img/mahalls/mahalls_14.png",
+    "img/mahalls/mahalls_15.png",
+    "img/mahalls/mahalls_16.png",
+    "img/mahalls/mahalls_17.png",
+    "img/mahalls/mahalls_18.png",
+    "img/mahalls/mahalls_19.png",
+    ];
+
+for (let i = 1; i <= thyme_pictures.length; i++) {
+    const an_image = document.createElement("img");
+    //whateverDiv.append(an_image);
+    an_image.src = "img/thyme/thyme_" + i + ".png";
+}
+
+for (let i = 1; i <= mahalls_pictures.length; i++) {
+    const an_image = document.createElement("img");
+    //whateverDiv.append(an_image);
+    an_image.src = "img/mahalls/mahalls_" + i + ".png";
+}
+*/
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////GALLERY///FOR GITHUB///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*const thyme_pictures = [
+    "img/thyme_1.png",
+    "img/thyme_2.png",
+    "img/thyme_3.png",
+    "img/thyme_4.png",
+    "img/thyme_5.png",
+    "img/thyme_6.png",
+    "img/thyme_7.png",
+    "img/thyme_8.png",
+    "img/thyme_9.png",
+    "img/thyme_10.png",
+    "img/thyme_11.png",
+    "img/thyme_12.png",
+    "img/thyme_13.png",
+];
+
+const mahalls_pictures = [
+    "img/mahalls_1.png",
+    "img/mahalls_2.png",
+    "img/mahalls_3.png",
+    "img/mahalls_4.png",
+    "img/mahalls_5.png",
+    "img/mahalls_6.png",
+    "img/mahalls_7.png",
+    "img/mahalls_8.png",
+    "img/mahalls_9.png",
+    "img/mahalls_10.png",
+    "img/mahalls_11.png",
+    "img/mahalls_12.png",
+    "img/mahalls_13.png",
+    "img/mahalls_14.png",
+    "img/mahalls_15.png",
+    "img/mahalls_16.png",
+    "img/mahalls_17.png",
+    "img/mahalls_18.png",
+    "img/mahalls_19.png",
+    ];
+
+for (let i = 1; i <= thyme_pictures.length; i++) {
+    const an_image = document.createElement("img");
+    //whateverDiv.append(an_image);
+    an_image.src = "img/thyme_" + i + ".png";
+}
+
+for (let i = 1; i <= mahalls_pictures.length; i++) {
+    const an_image = document.createElement("img");
+    //whateverDiv.append(an_image);
+    an_image.src = "img/mahalls_" + i + ".png";
+}
+*/
