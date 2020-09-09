@@ -535,7 +535,7 @@
 #closer {
     width: 40%;
     margin: auto;
-    padding-right: -1em;
+    margin-right: -1em;
 }
 
 #closer:hover {
