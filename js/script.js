@@ -78,7 +78,7 @@ function mobile() {
     );
     $("#four").html(
         "<h1 id='four_h1'>" +
-            "Lorem ipsum sit dolor" +
+            "Prologue" +
             "</h1>" +
             "<div id='four_text_box_div'>" +
             "<p id='four_text'>" +
