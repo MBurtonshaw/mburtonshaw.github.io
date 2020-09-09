@@ -11,15 +11,20 @@ body {
     font-weight: 200;
 }
 
-.img_container {
+#gallery_container {
+    width: 75%;
     height: 100%;
-    width: auto;
+    margin: auto;
+}
+
+.img_container {
+    height: auto;
+    width: 100%;
 }
 
 .gallery_pics {
-    width: 90%;
-    height: auto;
-    margin: auto;
+    width: 15%;
+    padding: 1em;
 }
 
 .small_text {
