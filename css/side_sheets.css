@@ -5,6 +5,16 @@ body {
     margin: auto;
 }
 
+.click_pics {
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+.click_pics:hover {
+    cursor: pointer;
+}
+
 .side_headers {
     font-family: "madlove2regular";
     font-size: 5em;
