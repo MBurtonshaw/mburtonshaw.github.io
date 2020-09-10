@@ -36,12 +36,6 @@ const mahalls_pictures = [
     "img/mahalls_19.png",
     ];
 
-for (let i = 0; i < thyme_pictures.length; i++) {
-    if (thyme_pictures) {
-        
-        }
-}
-
 $("#gallery_container").append("<div id='img_container_1'></div>");
 
 for (let i = 1; i <= thyme_pictures.length; i++) {
@@ -51,7 +45,7 @@ for (let i = 1; i <= thyme_pictures.length; i++) {
     a_link.append(an_image);
     a_link.id = "thyme_" + i;
     a_link.href = "img/thyme_" + i + ".png";
-    an_image.src = "img/thyme_" + i + ".png";
+    an_image.src = "img/thyme_thumbnail_" + i + ".png";
     an_image.classList.add("gallery_pics");
     an_image.classList.add("thyme_pics");
 }
@@ -65,7 +59,7 @@ for (let i = 1; i <= mahalls_pictures.length; i++) {
     a_link.append(an_image);
     a_link.id = "mahalls_" + i;
     a_link.href = "img/mahalls_" + i + ".png";
-    an_image.src = "img/mahalls_" + i + ".png";
+    an_image.src = "img/mahalls_thumbnail_" + i + ".png";
     an_image.classList.add("gallery_pics");
     an_image.classList.add("mahalls_pics");
 }
