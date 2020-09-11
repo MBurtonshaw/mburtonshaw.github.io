@@ -52,7 +52,7 @@ body {
 }
 
 .gallery_pics {
-    width: 12.5%;
+    width: 10%;
     padding: 0.1em;
 }
 
@@ -67,4 +67,11 @@ body {
     font-size: 2.2em;
     font-weight: 200;
     color: rgb(173, 129, 86);
+}
+
+@media all and (max-width: 900px) {
+    .gallery_pics {
+    width: 12.5%;
+    padding: 0.05em;
+}
 }
