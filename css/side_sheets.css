@@ -38,22 +38,15 @@ body {
     margin: auto;
 }
 
-#img_container_1 {
+#img_container {
     height: auto;
     width: 100%;
     margin: auto;
-}
-
-#img_container_2 {
-    height: auto;
-    width: 100%;
-    margin: auto;
-    padding-bottom: 2em;
+    padding-top: 3em;
 }
 
 .gallery_pics {
-    width: 10%;
-    padding: 0.1em;
+    padding: 0.3em;
 }
 
 .small_text {
