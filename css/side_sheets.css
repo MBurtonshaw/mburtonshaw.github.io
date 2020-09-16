@@ -46,7 +46,12 @@ body {
 }
 
 .gallery_pics {
-    padding: 0.3em;
+    padding-top: 0.15em;
+    padding-bottom: 0.15em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    width: 180px;
+    height: 120px;
 }
 
 .small_text {
@@ -64,10 +69,12 @@ body {
 
 @media all and (max-width: 1175px) {
     .gallery_pics {
-    padding-top: 0.75em;
-    padding-bottom:  0.75em;
-    padding-right: 0.75em;
-    padding-left: 0.75em;
+    padding-top: 0.5em;
+    padding-bottom:  0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    height: 120px;
+    width: 180px;
 }
     #img_container {
         width: 750px;
@@ -75,25 +82,15 @@ body {
 }
 @media all and (max-width: 900px) {
     .gallery_pics {
-    padding-top: 1em;
-    padding-bottom:  1em;
-    padding-right: 1em;
-    padding-left: 1em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
 }
     #img_container {
-        width: 600px;
+        width: 500px;
     }
 }
+
 @media all and (max-width: 700px) {
-    .gallery_pics {
-    padding-top: 1em;
-    padding-bottom:  1em;
-}
-    #img_container {
-        width: 450px;
-    }
-}
-@media all and (max-width: 500px) {
     .gallery_pics {
         padding-top: 0.15em;
         padding-bottom:  0.15em;
