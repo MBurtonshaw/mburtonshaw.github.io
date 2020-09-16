@@ -40,7 +40,7 @@ body {
 
 #img_container {
     height: auto;
-    width: 100%;
+    width: 1000px;
     margin: auto;
     padding-top: 3em;
 }
@@ -62,9 +62,43 @@ body {
     color: rgb(173, 129, 86);
 }
 
+@media all and (max-width: 1175px) {
+    .gallery_pics {
+    padding-top: 0.75em;
+    padding-bottom:  0.75em;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+}
+    #img_container {
+        width: 750px;
+    }
+}
 @media all and (max-width: 900px) {
     .gallery_pics {
-    width: 12.5%;
-    padding: 0.05em;
+    padding-top: 1em;
+    padding-bottom:  1em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
+    #img_container {
+        width: 600px;
+    }
+}
+@media all and (max-width: 700px) {
+    .gallery_pics {
+    padding-top: 1em;
+    padding-bottom:  1em;
+}
+    #img_container {
+        width: 450px;
+    }
+}
+@media all and (max-width: 500px) {
+    .gallery_pics {
+    padding-top: 0.5em;
+    padding-bottom:  0.5em;
+}
+    #img_container {
+        width: 200px;
+    }
 }
