@@ -95,10 +95,11 @@ body {
 }
 @media all and (max-width: 500px) {
     .gallery_pics {
-    padding-top: 0.5em;
-    padding-bottom:  0.5em;
+    padding-top: 0.15em;
+    padding-bottom:  0.15em;
+        margin: auto;
 }
     #img_container {
-        width: 100px;
+        width: 125px;
     }
 }
