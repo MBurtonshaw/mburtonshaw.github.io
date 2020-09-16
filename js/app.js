@@ -23,7 +23,7 @@ for (let i = 1; i <= gallery_pictures.length; i++) {
     const a_link = document.createElement("a");
     $("#img_container").append(a_link);
     a_link.append(an_image);
-    a_link.id = "gallery_" + i;
+    a_link.id = "thumbnail_" + i;
     a_link.href = "img/gallery_" + i + ".png";
     an_image.src = "img/gallery_thumbnail_" + i + ".png";
     an_image.classList.add("gallery_pics");
