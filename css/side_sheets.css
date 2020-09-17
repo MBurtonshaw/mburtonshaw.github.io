@@ -5,13 +5,14 @@ body {
     margin: auto;
 }
 
-.click_pics {
-    width: 30%;
+.clickable_large {
+    width: 100%;
     height: auto;
     margin: auto;
 }
 
-.click_pics:hover {
+.gallery_pics:hover,
+.clickable_large:hover {
     cursor: pointer;
 }
 
@@ -69,13 +70,13 @@ body {
 
 @media all and (max-width: 1175px) {
     .gallery_pics {
-    padding-top: 0.5em;
-    padding-bottom:  0.5em;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    height: 120px;
-    width: 180px;
-}
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+        height: 120px;
+        width: 180px;
+    }
     #img_container {
         width: 750px;
     }
@@ -84,7 +85,7 @@ body {
     .gallery_pics {
         padding-top: 0.25em;
         padding-bottom: 0.25em;
-}
+    }
     #img_container {
         width: 500px;
     }
@@ -93,7 +94,7 @@ body {
 @media all and (max-width: 700px) {
     .gallery_pics {
         padding-top: 0.15em;
-        padding-bottom:  0.15em;
+        padding-bottom: 0.15em;
         margin: auto;
     }
     #img_container {
