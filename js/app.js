@@ -27,11 +27,11 @@ function main() {
         an_image.classList.add("gallery_pics");
         $(".gallery_pics").click(e => {
             if (i === parseInt(e.currentTarget.id)) {
-                $("#img_container").hide();
                 e.currentTarget.src = "img/gallery_" + i + ".png";
                 e.currentTarget.classList.remove("gallery_pics");
                 e.currentTarget.classList.add("clickable_large");
-                $("h1").hide();
+                //$("h1").hide();
+                //$("#img_container").hide();
                 $("body").append(e.currentTarget);
             }
             $(".clickable_large").click(() => {
@@ -41,8 +41,16 @@ function main() {
                     "img/gallery_thumbnail_" + e.currentTarget.id + ".png";
                 e.currentTarget.classList.remove("clickable_large");
                 e.currentTarget.classList.add("gallery_pics");
-                $("h1").show();
-                $("#img_container").show();
+                //$("h1").show();
+                //$("#img_container").show();
+            });
+            $(".gallery_pics").click(() => {
+                e.currentTarget.remove();
+                $("#img_container").append(e.currentTarget);
+                e.currentTarget.src =
+                    "img/gallery_thumbnail_" + e.currentTarget.id + ".png";
+                e.currentTarget.classList.remove("clickable_large");
+                e.currentTarget.classList.add("gallery_pics");
             });
         });
     }
