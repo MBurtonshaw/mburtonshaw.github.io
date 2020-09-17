@@ -18,13 +18,34 @@ const gallery_pictures = [
 
 $("#gallery_container").append("<div id='img_container'></div>");
 
-for (let i = 1; i <= gallery_pictures.length; i++) {
-    const an_image = document.createElement("img");
-    const a_link = document.createElement("a");
-    $("#img_container").append(a_link);
-    a_link.append(an_image);
-    a_link.id = "thumbnail_" + i;
-    a_link.href = "img/gallery_" + i + ".png";
-    an_image.src = "img/gallery_thumbnail_" + i + ".png";
-    an_image.classList.add("gallery_pics");
+function main() {
+    for (let i = 1; i <= gallery_pictures.length; i++) {
+        const an_image = document.createElement("img");
+        $("#img_container").append(an_image);
+        an_image.id = i;
+        an_image.src = "img/gallery_thumbnail_" + i + ".png";
+        an_image.classList.add("gallery_pics");
+        $(".gallery_pics").click(e => {
+            if (i === parseInt(e.currentTarget.id)) {
+                $("#img_container").hide();
+                e.currentTarget.src = "img/gallery_" + i + ".png";
+                e.currentTarget.classList.remove("gallery_pics");
+                e.currentTarget.classList.add("clickable_large");
+                $("h1").hide();
+                $("body").append(e.currentTarget);
+            }
+            $(".clickable_large").click(() => {
+                e.currentTarget.remove();
+                $("#img_container").append(e.currentTarget);
+                e.currentTarget.src =
+                    "img/gallery_thumbnail_" + e.currentTarget.id + ".png";
+                e.currentTarget.classList.remove("clickable_large");
+                e.currentTarget.classList.add("gallery_pics");
+                $("h1").show();
+                $("#img_container").show();
+            });
+        });
+    }
 }
+
+main();
