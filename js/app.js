@@ -16,8 +16,8 @@ const gallery_pictures = [
     "img/gallery_15.png"
 ];
 
+//LOOP TO POPULATE PAGE W PHOTOS//
 $("#gallery_container").append("<div id='img_container'></div>");
-
 for (let i = 1; i <= gallery_pictures.length; i++) {
     const an_image = document.createElement("img");
     $("#img_container").append(an_image);
@@ -26,7 +26,7 @@ for (let i = 1; i <= gallery_pictures.length; i++) {
     an_image.classList.add("gallery_pics");
     an_image.classList.add("thumbnail_pics");
 }
-
+//FUNCTION THAT ENLARGES PHOTOS WHEN CLICKED//
 $(".gallery_pics").click(e => {
     $("#img_container_2").html(
         "<img id='been_clicked' class='clickable_large' src=''>"
@@ -35,15 +35,12 @@ $(".gallery_pics").click(e => {
         "src",
         "img/gallery_" + e.currentTarget.id + ".png"
     );
-    $("h1").hide();
-    $("#img_container").hide();
     $("#img_container_2").show();
 });
+//FUNCTION THAT HIDES ENLARGED IMAGE WHEN CLICKED//
 $("#img_container_2").click(e => {
     $("#img_container_2").hide();
     $("#img_container_2").html(
         "<img id='been_clicked' class='clickable_large' src=''>"
     );
-    $("h1").show();
-    $("#img_container").show();
 });
