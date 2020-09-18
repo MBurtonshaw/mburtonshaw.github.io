@@ -50,6 +50,9 @@ body {
 }
 
 .gallery_pics {
+}
+
+.thumbnail_pics {
     padding-top: 0.15em;
     padding-bottom: 0.15em;
     padding-left: 0.3em;
@@ -77,15 +80,13 @@ body {
         padding-bottom: 0.5em;
         padding-right: 0.5em;
         padding-left: 0.5em;
-        height: 120px;
-        width: 180px;
     }
     #img_container {
         width: 750px;
     }
     .clickable_large {
         position: absolute;
-        width: 85%;
+        width: auto;
         height: auto;
         top: 0;
         left: 0;
