@@ -18,42 +18,32 @@ const gallery_pictures = [
 
 $("#gallery_container").append("<div id='img_container'></div>");
 
-function main() {
-    for (let i = 1; i <= gallery_pictures.length; i++) {
-        const an_image = document.createElement("img");
-        $("#img_container").append(an_image);
-        an_image.id = i;
-        an_image.src = "img/gallery_thumbnail_" + i + ".png";
-        an_image.classList.add("gallery_pics");
-        $(".gallery_pics").click(e => {
-            if (i === parseInt(e.currentTarget.id)) {
-                e.currentTarget.src = "img/gallery_" + i + ".png";
-                e.currentTarget.classList.remove("gallery_pics");
-                e.currentTarget.classList.add("clickable_large");
-                //$("h1").hide();
-                //$("#img_container").hide();
-                $("body").append(e.currentTarget);
-            }
-            $(".clickable_large").click(() => {
-                e.currentTarget.remove();
-                $("#img_container").append(e.currentTarget);
-                e.currentTarget.src =
-                    "img/gallery_thumbnail_" + e.currentTarget.id + ".png";
-                e.currentTarget.classList.remove("clickable_large");
-                e.currentTarget.classList.add("gallery_pics");
-                //$("h1").show();
-                //$("#img_container").show();
-            });
-            $(".gallery_pics").click(() => {
-                e.currentTarget.remove();
-                $("#img_container").append(e.currentTarget);
-                e.currentTarget.src =
-                    "img/gallery_thumbnail_" + e.currentTarget.id + ".png";
-                e.currentTarget.classList.remove("clickable_large");
-                e.currentTarget.classList.add("gallery_pics");
-            });
-        });
-    }
+for (let i = 1; i <= gallery_pictures.length; i++) {
+    const an_image = document.createElement("img");
+    $("#img_container").append(an_image);
+    an_image.id = i;
+    an_image.src = "img/gallery_thumbnail_" + parseInt(an_image.id) + ".png";
+    an_image.classList.add("gallery_pics");
+    an_image.classList.add("thumbnail_pics");
 }
 
-main();
+$(".gallery_pics").click(e => {
+    $("#img_container_2").html(
+        "<img id='been_clicked' class='clickable_large' src=''>"
+    );
+    $("#been_clicked").attr(
+        "src",
+        "img/gallery_" + e.currentTarget.id + ".png"
+    );
+    $("h1").hide();
+    $("#img_container").hide();
+    $("#img_container_2").show();
+});
+$("#img_container_2").click(e => {
+    $("#img_container_2").hide();
+    $("#img_container_2").html(
+        "<img id='been_clicked' class='clickable_large' src=''>"
+    );
+    $("h1").show();
+    $("#img_container").show();
+});
