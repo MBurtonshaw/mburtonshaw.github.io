@@ -6,9 +6,12 @@ body {
 }
 
 .clickable_large {
-    width: 100%;
+    position: absolute;
+    width: 85%;
     height: auto;
-    margin: auto;
+    top: 0;
+    left: 0;
+    margin-left: 7.5%;
 }
 
 .gallery_pics:hover,
@@ -79,6 +82,15 @@ body {
     }
     #img_container {
         width: 750px;
+    }
+    .clickable_large {
+        position: absolute;
+        width: 85%;
+        height: auto;
+        top: 0;
+        left: 0;
+        margin-left: 7.5%;
+        margin-top: 7.5%;
     }
 }
 @media all and (max-width: 900px) {
