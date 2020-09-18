@@ -86,12 +86,10 @@ body {
     }
     .clickable_large {
         position: absolute;
-        width: auto;
+        width: 100%;
         height: auto;
         top: 0;
-        left: 0;
-        margin-left: 7.5%;
-        margin-top: 7.5%;
+        margin: auto;
     }
 }
 @media all and (max-width: 900px) {
