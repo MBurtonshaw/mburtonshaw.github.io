@@ -35,12 +35,30 @@ $(".gallery_pics").click(e => {
         "src",
         "img/gallery_" + e.currentTarget.id + ".png"
     );
+    $("#img_container").hide();
     $("#img_container_2").show();
 });
 //FUNCTION THAT HIDES ENLARGED IMAGE WHEN CLICKED//
 $("#img_container_2").click(e => {
     $("#img_container_2").hide();
+    $("#img_container").show();
     $("#img_container_2").html(
         "<img id='been_clicked' class='clickable_large' src=''>"
     );
 });
+
+$("#1").addClass("big_pics");
+$("#2").addClass("thin_pics");
+$("#3").addClass("big_pics");
+$("#4").addClass("thin_pics");
+$("#5").addClass("big_pics");
+$("#6").addClass("big_pics");
+$("#7").addClass("big_pics");
+$("#8").addClass("big_pics");
+$("#9").addClass("thin_pics");
+$("#10").addClass("big_pics");
+$("#11").addClass("thin_pics");
+$("#12").addClass("big_pics");
+$("#13").addClass("thin_pics");
+$("#14").addClass("big_pics");
+$("#15").addClass("big_pics");
