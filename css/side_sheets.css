@@ -37,28 +37,37 @@ body {
 }
 
 #gallery_container {
-    width: 85%;
-    height: 100%;
+    width: 80%;
+    height: 95%;
     margin: auto;
 }
 
 #img_container {
     height: auto;
-    width: 1000px;
+    width: 100%;
     margin: auto;
     padding-top: 3em;
+}
+
+.big_pics {
+    width: 375px;
+    height: 300px;
+}
+
+.thin_pics {
+    width: 175px;
+    height: 300px;
 }
 
 .gallery_pics {
 }
 
 .thumbnail_pics {
-    padding-top: 0.15em;
-    padding-bottom: 0.15em;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    width: 180px;
-    height: 120px;
+    height: 250px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
 }
 
 .small_text {
