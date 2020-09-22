@@ -6,7 +6,7 @@ body {
     text-align: center;
     font-family: "Goudy Bookletter 1911";
     background-color: rgb(21, 21, 21);
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin: auto;
 }
 
@@ -252,7 +252,7 @@ body {
 /*===============================================================================================================================*/
 #seven {
     display: grid;
-    grid-template-rows: 2em 5em 1em;
+    grid-template-rows: 3em 2em 1em;
     grid-template-columns: 2em 12em 15em 20em;
     width: 100%;
     background-color: rgb(22, 22, 22);
@@ -275,17 +275,17 @@ body {
     grid-row-start: 2;
     grid-row-end: 2;
     display: grid;
-    grid-template-columns: 5em 5em 5em;
+    grid-template-columns: 5em 1em 5em;
 }
 
-#seven_facebook {
-    width: 75%;
+#seven_facebook_a {
+    width: 100%;
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-#seven_instagram {
-    width: 75%;
+#seven_instagram_a {
+    width: 100%;
     grid-column-start: 3;
     grid-column-end: 3;
 }
@@ -369,7 +369,7 @@ body {
     }
     #seven {
         display: grid;
-        grid-template-rows: auto 4em auto;
+        grid-template-rows: 8em 2em 5em;
         grid-template-columns: auto;
     }
     #seven_socials_div {
@@ -380,7 +380,7 @@ body {
         margin: auto;
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: auto 7em 2em 7em auto;
+        grid-template-columns: auto 5em 4em 5em auto;
     }
     #seven_instagram_a {
         grid-row-start: 1;
@@ -410,8 +410,13 @@ body {
         grid-column-start: 1;
         grid-column-end: 1;
         margin: auto;
+        text-align: bottom;
+        letter-spacing: 1px;
+        font-size: 1.1em;
     }
     .klaviyo-form-RBSHP6 {
+        width: 65%;
+        margin: auto;
         grid-row-start: 3;
         grid-row-end: 3;
         grid-column-start: 1;
