@@ -510,12 +510,13 @@ body {
         margin: auto;
     }
     #img_container {
-        width: 375px;
+        width: 300px;
         margin: auto;
     }
 
     #one_img_div {
-        margin-left: 0.75em;
+        margin-left: 0.25em;
+        width: 135%;
     }
 
     #one_menu_div {
