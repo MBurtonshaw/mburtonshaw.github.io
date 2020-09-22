@@ -9,6 +9,12 @@ body {
     margin: auto;
 }
 
+#container {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
 .clicker {
     position: absolute;
 }
@@ -19,7 +25,7 @@ body {
     height: auto;
     top: 0;
     left: 0;
-    margin-left: 7.5%;
+    
 }
 
 .gallery_pics:hover,
@@ -515,8 +521,11 @@ body {
     }
 
     #one_img_div {
-        margin-left: 0.25em;
-        width: 135%;
+        width: 65%;
+        margin-left: -0.25em;
+    }
+    #one_img {
+        width: 100%;
     }
 
     #one_menu_div {
