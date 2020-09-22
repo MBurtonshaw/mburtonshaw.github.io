@@ -23,7 +23,7 @@ body {
 }
 
 .gallery_pics:hover,
-.clickable_large:hover {
+#x_div:hover {
     cursor: pointer;
 }
 
@@ -92,6 +92,20 @@ body {
     font-size: 2.2em;
     font-weight: 200;
     color: rgb(173, 129, 86);
+}
+
+#x_div {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1em;
+    margin-right: -0.5em;
+}
+
+#xxx {
+    width: 30%;
 }
 
 /*================================================================================================================================*/
@@ -281,6 +295,12 @@ body {
         padding-bottom: 0.5em;
         padding-right: 0.5em;
         padding-left: 0.5em;
+    }
+    #been_clicked {
+        z-index: 0;
+    }
+    #x_div {
+        z-index: 10;
     }
     #img_container {
         width: 750px;
