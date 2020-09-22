@@ -380,7 +380,7 @@ body {
         margin: auto;
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: auto 5em 4em 5em auto;
+        grid-template-columns: auto 4em 3em 4em auto;
     }
     #seven_instagram_a {
         grid-row-start: 1;
