@@ -252,7 +252,7 @@ body {
 /*===============================================================================================================================*/
 #seven {
     display: grid;
-    grid-template-rows: 3em 2em 1em;
+    grid-template-rows: 1em 5em 0.5em;
     grid-template-columns: 2em 12em 15em 20em;
     width: auto;
     height: auto;
@@ -277,18 +277,26 @@ body {
     grid-row-end: 2;
     display: grid;
     grid-template-columns: 5em 1em 5em;
+    width: auto;
+    height: auto;
 }
 
 #seven_facebook_a {
-    width: 100%;
+    width: auto;
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
 #seven_instagram_a {
-    width: 100%;
+    width: auto;
     grid-column-start: 3;
     grid-column-end: 3;
+}
+#seven_facebook {
+    width: 85%;
+}
+#seven_instagram {
+    width: 85%;
 }
 .klaviyo-form-RBSHP6 {
     background-color: rgb(22, 22, 22);
