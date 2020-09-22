@@ -29,6 +29,7 @@ for (let i = 1; i <= gallery_pictures.length; i++) {
 //FUNCTION THAT ENLARGES PHOTOS WHEN CLICKED//
 $(".gallery_pics").click(e => {
     $("#img_container_2").html(
+        "<div id='x_div'><img id='xxx' src='img/mobile_x.png'></div>" + 
         "<img id='been_clicked' class='clickable_large' src=''>"
     );
     $("#been_clicked").attr(
@@ -36,15 +37,15 @@ $(".gallery_pics").click(e => {
         "img/gallery_" + e.currentTarget.id + ".png"
     );
     $("#img_container").hide();
+    $("#seven").hide();
     $("#img_container_2").show();
 });
 //FUNCTION THAT HIDES ENLARGED IMAGE WHEN CLICKED//
 $("#img_container_2").click(e => {
     $("#img_container_2").hide();
     $("#img_container").show();
-    $("#img_container_2").html(
-        "<img id='been_clicked' class='clickable_large' src=''>"
-    );
+    $("#seven").show();
+    $("#img_container_2").html("<img id='been_clicked' class='clickable_large' src=''>");
 });
 
 $("#1").addClass("big_pics");
