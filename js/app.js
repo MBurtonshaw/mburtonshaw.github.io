@@ -63,3 +63,29 @@ $("#12").addClass("thin_pics");
 $("#13").addClass("big_pics");
 $("#14").addClass("thin_pics");
 $("#15").addClass("big_pics");
+
+if (window.innerWidth < 1200) {
+    $("#2").addClass("big_pics");
+    $("#2").removeClass("thin_pics");
+    $("#2").attr("src", "img/gallery_thumbnail_wide_2.png");
+    
+    $("#4").addClass("big_pics");
+    $("#4").removeClass("thin_pics");
+    $("#4").attr("src", "img/gallery_thumbnail_wide_4.png");
+    
+    $("#9").addClass("big_pics");
+    $("#9").removeClass("thin_pics");
+    $("#9").attr("src", "img/gallery_thumbnail_wide_9.png");
+    
+    $("#11").addClass("big_pics");
+    $("#11").removeClass("thin_pics");
+    $("#11").attr("src", "img/gallery_thumbnail_wide_11.png");
+    
+    $("#12").addClass("big_pics");
+    $("#12").removeClass("thin_pics");
+    $("#12").attr("src", "img/gallery_thumbnail_wide_12.png");
+    
+    $("#14").addClass("big_pics");
+    $("#14").removeClass("thin_pics");
+    $("#14").attr("src", "img/gallery_thumbnail_wide_14.png");
+}
