@@ -24,7 +24,9 @@ for (let i = 1; i <= gallery_pictures.length; i++) {
     an_image.id = i;
     an_image.src = "img/gallery_thumbnail_" + parseInt(an_image.id) + ".png";
     an_image.classList.add("gallery_pics");
+    if (window.innerWidth > 700) {
     an_image.classList.add("thumbnail_pics");
+    }
 }
 //FUNCTION THAT ENLARGES PHOTOS WHEN CLICKED//
 $(".gallery_pics").click(e => {
