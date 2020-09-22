@@ -501,6 +501,9 @@ body {
 }
 
 @media all and (max-width: 700px) {
+    #two_contacts_div {
+        font-size: 0.75em;
+    }
     .gallery_pics {
         padding-top: 0.15em;
         padding-bottom: 0.15em;
