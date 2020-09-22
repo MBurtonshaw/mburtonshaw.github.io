@@ -78,10 +78,10 @@ body {
 }
 
 .gallery_pics {
+    height: 250px;
 }
 
 .thumbnail_pics {
-    height: 250px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 0.75em;
