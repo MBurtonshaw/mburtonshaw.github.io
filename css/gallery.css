@@ -303,7 +303,7 @@ body {
         z-index: 10;
     }
     #img_container {
-        width: 750px;
+        width: 100%;
     }
     .clickable_large {
         position: absolute;
@@ -510,7 +510,7 @@ body {
         margin: auto;
     }
     #img_container {
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
