@@ -254,7 +254,8 @@ body {
     display: grid;
     grid-template-rows: 3em 2em 1em;
     grid-template-columns: 2em 12em 15em 20em;
-    width: 100%;
+    width: auto;
+    height: auto;
     background-color: rgb(22, 22, 22);
 }
 
@@ -368,6 +369,8 @@ body {
         width: 100%;
     }
     #seven {
+        width: auto;
+        height: auto;
         display: grid;
         grid-template-rows: 8em 2em 5em;
         grid-template-columns: auto;
