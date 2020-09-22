@@ -513,6 +513,7 @@ body {
     }
     .big_pics {
         width: 300px;
+        height: auto;
     }
     .gallery_pics {
         padding-top: 0.15em;
@@ -520,7 +521,7 @@ body {
         margin: auto;
     }
     #img_container {
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 
