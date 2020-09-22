@@ -394,6 +394,7 @@ body {
         grid-template-columns: auto 4em 3em 4em auto;
     }
     #seven_instagram_a {
+        width: auto;
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 4;
@@ -405,6 +406,7 @@ body {
         margin: auto;
     }
     #seven_facebook_a {
+        width: auto;
         grid-row-start: 1;
         grid-row-end: 1;
         grid-column-start: 2;
@@ -523,6 +525,21 @@ body {
     }
     #img_container {
         width: 500px;
+    }
+    #seven_socials_div {
+        grid-template-columns: auto 5em 4em 5em auto;
+    }
+    #seven_facebook_a {
+        width: auto;
+    }
+    #seven_instagram_a {
+        width: auto;
+    }
+    #seven_instagram {
+        width: 100%;
+    }
+    #seven_facebook {
+        width: 100%;
     }
 }
 
