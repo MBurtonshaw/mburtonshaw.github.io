@@ -22,11 +22,14 @@ body {
 
 .clickable_large {
     position: absolute;
-    width: 85%;
+    width: 90%;
     height: auto;
     top: 0;
     left: 0;
-    
+    margin-left: 4em;
+}
+#img_container_2 {
+    margin: auto;
 }
 
 .gallery_pics:hover,
