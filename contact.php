@@ -24,6 +24,7 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
             rel="stylesheet"
         />
         <link href="font/font.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div id="one">
@@ -64,31 +65,32 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
         <div id="two">
             <div id="two_contacts_div">
                 <h3 id="address" class="two_contacts">
-                    2399 W. 11TH ST. CLEVELAND, OH 44113 ·
+                    2399 W. 11TH ST. CLEVELAND, OH 44113 
                 </h3>
                 <h3 id="phone" class="two_contacts">
                     <a href="tel:216-795-5657">(216) 795-5657</a>
                 </h3>
             </div>
         </div>
-            <h1 class="side_headers">CONTACT</h1>
-        <p class="big_text">
-            EMAIL
-        </p>
-        <p class="small_text">
-            info@cloakanddaggercle.com
-        </p>
+            <h1 id="contact_h1" class="big_text">CONTACT</h1>
 
-    <form action="contact.php" method="POST">
-        <p>Name</p> <input type="text" name="name">
-        <p>Email</p> <input type="text" name="email">
-        <p>Phone</p> <input type="text" name="phone">
+        <a id="contact_email" href="mailto:info@cloakanddaggercle.com">
+            <p class="small_text">
+                info@cloakanddaggercle.com
+            </p>
+        </a>
+            <div id="form_div">
+                <form action="contact.php" method="POST">
+                    <p>Name</p> <input type="text" name="name">
+                    <p>Email</p> <input type="text" name="email">
+                    <p>Phone</p> <input type="text" name="phone">
 
-        <br />
+                    <br />
 
-        <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-        <input type="submit" value="Send"><input type="reset" value="Clear">
-    </form>
+                    <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+                    <input type="submit" value="Send"><input type="reset" value="Clear">
+                </form>
+            </div>
             <div id="seven">
                 <div id="seven_socials_div">
                     <a
@@ -116,6 +118,7 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
                 type="text/javascript"
                 src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TMxbzu"
             ></script>
+                <script src="js/contact.js"></script>
             </div>
 
     </body>
