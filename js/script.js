@@ -65,40 +65,9 @@ for (let i = 0; i < 1; i++) {
     setInterval(myFn5, 1000);
 }
 
-function desktop() {
-    $("#change_css").attr("href", "");
-    $("#change_css").attr("href", "css/style.css");
-}
-
 function mobile() {
-    $("#change_css").attr("href", "");
-    $("#change_css").attr("href", "css/mobile.css");
     $("#one_menu_div").html(
         "<a id='one_menu_a'><img src='img/mobile_menu_icon.png' id='one_menu_img'></a>"
-    );
-    $("#four").html(
-        "<h1 id='four_h1'>" +
-            "Prologue" +
-            "</h1>" +
-            "<div id='four_text_box_div'>" +
-            "<p id='four_text'>" +
-            "A cocktail lounge with focus on hospitality and craft located next to Lincoln Park in the historic Tremont neighborhood of Cleveland." +
-            "</p>" +
-            "<div id='four_time_div'>" +
-            "<p id='four_weekdays'>" +
-            "Wed - Sat" +
-            "</p>" +
-            "<p id='four_weekdays_time'>" +
-            "4pm - 10pm" +
-            "</p>" +
-            "<p id='four_weekends'>" +
-            "Sat &amp; Sun" +
-            "</p>" +
-            "<p id='four_weekends_time'>" +
-            "10am - 2pm" +
-            "</p>" +
-            "</div>" +
-            "</div>"
     );
     $("#one_menu_div").on("click", () => {
         $("#container").addClass("clicker");
