@@ -65,10 +65,7 @@ for (let i = 0; i < 1; i++) {
     setInterval(myFn5, 1000);
 }
 
-function desktop() {
-    $("#change_css").attr("href", "");
-    $("#change_css").attr("href", "css/style.css");
-}
+mobile();
 
 function mobile() {
     $("#one_menu_div").html(
