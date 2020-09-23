@@ -65,7 +65,14 @@ for (let i = 0; i < 1; i++) {
     setInterval(myFn5, 1000);
 }
 
+function desktop() {
+    $("#change_css").attr("href", "");
+    $("#change_css").attr("href", "css/style.css");
+}
+
 function mobile() {
+    $("#change_css").attr("href", "");
+    $("#change_css").attr("href", "css/mobile.css");
     $("#one_menu_div").html(
         "<a id='one_menu_a'><img src='img/mobile_menu_icon.png' id='one_menu_img'></a>"
     );
@@ -91,6 +98,21 @@ function mobile() {
             "10am - 2pm" +
             "</p>" +
             "</div>" +
+            "</div>"
+    );
+    $("#seven").html(
+        "<div id='seven_socials_div''>" +
+            "<a id='seven_facebook_a' target='_blank' href='https://facebook.com/cloakanddaggercle'>" +
+            "<img id='seven_facebook' src='img/CD_Facebook.png' />" +
+            "</a>" +
+            "<a id='seven_instagram_a' target='_blank' href='https://instagram.com/cloakanddaggercle'>" +
+            "<img id='seven_instagram' src='img/CD_Instagram.png' />" +
+            "</a>" +
+            "</div>" +
+            "<p id='seven_text'>" +
+            "Sign up for our newsletter" +
+            "</p>" +
+            "<div class='klaviyo-form-RBSHP6'></div>" +
             "</div>"
     );
     $("#one_menu_div").on("click", () => {
@@ -123,6 +145,9 @@ function mobile() {
     });
 }
 
+if (window.innerWidth > 1200) {
+    desktop();
+}
 if (window.innerWidth < 1200) {
     mobile();
 }
