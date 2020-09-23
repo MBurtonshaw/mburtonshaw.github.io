@@ -100,21 +100,6 @@ function mobile() {
             "</div>" +
             "</div>"
     );
-    $("#seven").html(
-        "<div id='seven_socials_div''>" +
-            "<a id='seven_facebook_a' target='_blank' href='https://facebook.com/cloakanddaggercle'>" +
-            "<img id='seven_facebook' src='img/CD_Facebook.png' />" +
-            "</a>" +
-            "<a id='seven_instagram_a' target='_blank' href='https://instagram.com/cloakanddaggercle'>" +
-            "<img id='seven_instagram' src='img/CD_Instagram.png' />" +
-            "</a>" +
-            "</div>" +
-            "<p id='seven_text'>" +
-            "Sign up for our newsletter" +
-            "</p>" +
-            "<div class='klaviyo-form-RBSHP6'></div>" +
-            "</div>"
-    );
     $("#one_menu_div").on("click", () => {
         $("#container").addClass("clicker");
         $("#container").html(
