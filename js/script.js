@@ -102,10 +102,10 @@ function mobile() {
     );
     $("#seven").html(
         "<div id='seven_socials_div''>" +
-            "<a target='_blank' href='https://facebook.com/cloakanddaggercle'>" +
+            "<a id='seven_facebook_a' target='_blank' href='https://facebook.com/cloakanddaggercle'>" +
             "<img id='seven_facebook' src='img/CD_Facebook.png' />" +
             "</a>" +
-            "<a target='_blank' href='https://instagram.com/cloakanddaggercle'>" +
+            "<a id='seven_instagram_a' target='_blank' href='https://instagram.com/cloakanddaggercle'>" +
             "<img id='seven_instagram' src='img/CD_Instagram.png' />" +
             "</a>" +
             "</div>" +
