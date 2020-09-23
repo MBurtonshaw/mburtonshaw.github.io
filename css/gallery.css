@@ -118,193 +118,11 @@ body {
     width: 30%;
 }
 
-/*================================================================================================================================*/
-/*============================================---------- SECTION ONE -----------===================================================*/
-/*================================================================================================================================*/
-#one {
-    position: relative;
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-}
-
-#one_img_div {
-    width: 55%;
-    height: auto;
-    margin-right: auto;
-    padding: 1em;
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-#one_img {
-    width: 100%;
-    height: auto;
-}
-
-#one_menu_div {
-    margin-left: auto;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-#one_menu {
-    list-style-type: none;
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: auto;
-    margin-left: -2.5em;
-}
-
-.one_menu {
-    font-size: 1.25em;
-    letter-spacing: 2px;
-    width: auto;
-    height: auto;
-    margin-right: 3em;
-    margin-top: 1.5em;
-}
-
-#one_menu_first {
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-
-#one_menu_second {
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-#one_menu_third {
-    grid-column-start: 3;
-    grid-column-end: 3;
-}
-
 #one_menu_third .one_menu_a {
     color: rgb(173, 129, 86);
 }
 
-#one_menu_fourth {
-    grid-column-start: 4;
-    grid-column-end: 4;
-}
 
-.one_menu_a {
-    color: rgb(225, 213, 186);
-    text-decoration: none;
-}
-.one_menu_a:hover {
-    color: rgb(173, 129, 86);
-}
-
-/*===============================================================================================================================*/
-/*============================================---------- SECTION TWO ----- ========================================================*/
-/*================================================================================================================================*/
-#two {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: rgb(173, 129, 86);
-}
-
-#two_contacts_div {
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: auto auto 0.5% auto auto;
-}
-
-.two_contacts {
-    letter-spacing: 2.5px;
-    word-spacing: 2px;
-    font-weight: 100;
-}
-
-#address {
-    font-size: 1em;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    text-align: right;
-    color: black;
-    padding: 0.5em;
-}
-
-#phone {
-    grid-column-start: 4;
-    grid-column-end: 4;
-    text-align: left;
-    color: black;
-}
-
-#phone a {
-    color: black;
-    text-decoration: none;
-    letter-spacing: 4px;
-    font-size: 0.95em;
-}
-/*===============================================================================================================================*/
-/*========================================----------- SECTION SEVEN ------------===================================================*/
-/*===============================================================================================================================*/
-#seven {
-    display: grid;
-    grid-template-rows: 1em 5em 0.5em;
-    grid-template-columns: 2em 12em 15em 20em;
-    width: auto;
-    height: auto;
-    background-color: rgb(22, 22, 22);
-}
-
-#seven_text {
-    color: rgb(225, 213, 186);
-    grid-column-start: 4;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    text-align: right;
-    padding-top: 0.75em;
-    padding-right: 0.75em;
-}
-
-#seven_socials_div {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    display: grid;
-    grid-template-columns: 5em 1em 5em;
-    width: auto;
-    height: auto;
-}
-
-#seven_facebook_a {
-    width: auto;
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-
-#seven_instagram_a {
-    width: auto;
-    grid-column-start: 3;
-    grid-column-end: 3;
-}
-#seven_facebook {
-    width: 85%;
-}
-#seven_instagram {
-    width: 85%;
-}
-.klaviyo-form-RBSHP6 {
-    background-color: rgb(22, 22, 22);
-    grid-column-start: 5;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
 /*================================================================================================================================*/
 /*============================================---------- MOBILE SECTION -----------===================================================*/
 /*================================================================================================================================*/
@@ -330,51 +148,6 @@ body {
         height: auto;
         top: 0;
         margin: auto;
-    }
-    #one {
-        position: relative;
-        width: 100%;
-        grid-template-rows: auto;
-        grid-template-columns: 75% 25%;
-        background-color: rgb(21, 21, 21);
-    }
-
-    #one_img_div {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        width: 100%;
-        height: auto;
-        text-align: left;
-        margin-left: 1.5em;
-        padding: 1.25em;
-    }
-
-    #one_img {
-        width: 50%;
-        height: auto;
-    }
-
-    #one_menu_div {
-        width: 30%;
-        height: 100%;
-        text-align: right;
-        margin-right: 1.5em;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        padding: 1.5em;
-    }
-
-    #one_menu_div:hover {
-        cursor: pointer;
-    }
-
-    #one_menu {
-        width: auto;
-    }
-
-    #one_menu_img {
-        height: auto;
-        width: 100%;
     }
     #seven {
         width: auto;
@@ -508,17 +281,6 @@ body {
     }
 }
 @media all and (max-width: 900px) {
-    #address {
-        font-size: 0.75em;
-    }
-    #phone {
-        font-size: 0.75em;
-        padding-top: 0.5em;
-    }
-    .two_contacts {
-        letter-spacing: 1px;
-        word-spacing: 1px;
-    }
     .gallery_pics {
         padding-top: 0.25em;
         padding-bottom: 0.25em;
@@ -544,9 +306,6 @@ body {
 }
 
 @media all and (max-width: 700px) {
-    #two_contacts_div {
-        font-size: 0.75em;
-    }
     .big_pics {
         width: 300px;
         height: auto;
@@ -559,18 +318,6 @@ body {
     #img_container {
         width: 100%;
         margin: auto;
-    }
-
-    #one_img_div {
-        width: 65%;
-        margin-left: -0.25em;
-    }
-    #one_img {
-        width: 100%;
-    }
-
-    #one_menu_div {
-        margin-right: 0.75em;
     }
     .thumbnail_pics {
         padding: 0%;

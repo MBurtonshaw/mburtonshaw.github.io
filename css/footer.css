@@ -1,0 +1,101 @@
+/*===============================================================================================================================*/
+/*========================================----------- SECTION SEVEN ------------===================================================*/
+/*===============================================================================================================================*/
+#seven {
+    display: grid;
+    grid-template-rows: 1em 5em 0.5em;
+    grid-template-columns: 2em 12em 15em 20em;
+    width: 100%;
+}
+
+#seven_text {
+    color: rgb(225, 213, 186);
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: right;
+    padding-top: 0.75em;
+    padding-right: 0.75em;
+}
+
+#seven_socials_div {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+}
+
+#seven_facebook {
+    width: 75%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#seven_instagram {
+    width: 75%;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.klaviyo-form-RBSHP6 {
+    background-color: rgb(22, 22, 22);
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+@media all and (max-width: 900px) {
+    #seven {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+    }
+    #seven_socials_div {
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin: auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto 7em 2em 7em auto;
+        grid-template-rows: 7em auto auto;
+    }
+    #seven_facebook_a {
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    #seven_instagram_a {
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 4;
+        grid-column-end: 4;
+    }
+    #seven_text {
+        width: auto;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin: auto;
+        text-align: center;
+    }
+    .klaviyo-form-RBSHP6 {
+        width: 100%;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        margin: auto;
+        text-align: center;
+    }
