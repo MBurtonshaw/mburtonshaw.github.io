@@ -18,6 +18,8 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
         
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/contact.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/footer.css" />
         <!-- Font Links -->
         <link
             href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap"
@@ -27,6 +29,7 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
+        <div id="container">
         <div id="one">
             <div id="one_img_div">
                 <a href="http://cloakanddaggercle.com"><img id="one_img" src="img/CD_Logo_Horizontal.png" /></a>
@@ -113,12 +116,13 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
                     Sign up for our newsletter
                 </p>
                 <div class="klaviyo-form-RBSHP6"></div>
+            </div>
             <script
                 async
                 type="text/javascript"
                 src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TMxbzu"
             ></script>
-                <script src="js/contact.js"></script>
+                <script src="js/mobile.js"></script>
             </div>
 
     </body>
