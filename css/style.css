@@ -28,11 +28,136 @@ body {
 /*================================================================================================================================*/
 /*============================================---------- SECTION ONE -----------===================================================*/
 /*================================================================================================================================*/
+#one {
+    position: relative;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 7.5em;
+    grid-template-columns: 28em auto auto;
+}
+
+#one_img_div {
+    width: 90%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding: 1em;
+}
+
+#one_img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#one_menu_div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#one_menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100%;
+    width: 90%;
+    height: auto;
+}
+
+.one_menu {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    width: auto;
+    height: auto;
+    padding-top: 1.35em;
+}
+
+#one_menu_first {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#one_menu_second {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 100%;
+    width: 100%;
+}
+
+#one_menu_third {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 100%;
+    width: 100%;
+}
+
+#one_menu_fourth {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    height: 100%;
+    width: 100%;
+}
+
+.one_menu_a {
+    color: rgb(225, 213, 186);
+    text-decoration: none;
+}
+.one_menu_a:hover {
+    color: rgb(173, 129, 86);
+}
 
 /*===============================================================================================================================*/
 /*============================================---------- SECTION TWO ----- ========================================================*/
 /*================================================================================================================================*/
+#two {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgb(173, 129, 86);
+}
 
+#two_contacts_div {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: auto auto 0.5% auto auto;
+}
+
+.two_contacts {
+    letter-spacing: 2.5px;
+    word-spacing: 2px;
+    font-weight: 100;
+}
+
+#address {
+    font-size: 1em;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: right;
+    color: black;
+}
+
+#phone {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    text-align: left;
+    color: black;
+}
+
+#phone a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 0.95em;
+}
 /*=================================================================================================================================*/
 /*============================================---------- SECTION THREE -----------================================================*/
 /*=================================================================================================================================*/
@@ -318,416 +443,4 @@ body {
     width: 100%;
     grid-column-start: 2;
     grid-column-end: 2;
-}
-/***********************************************************************************************************************************
-************************************MOBILE*****************************************************************************************
-***************************************************************************************************************************/
-@media all and (max-width: 1200px) {
-    #body {
-        background-color: rgb(21, 21, 21);
-        text-align: center;
-        font-family: "Goudy Bookletter 1911";
-    }
-
-    #container {
-        width: auto;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: rgb(21, 21, 21);
-        text-align: center;
-        font-family: "Goudy Bookletter 1911";
-    }
-
-    /*=============================================================================================================================*/
-    /*=======================================---------- SECTION ONE -----------=====================================================*/
-    /*=============================================================================================================================*/
-
-    /*==============================================================================================================================*/
-    /*=======================================---------- SECTION TWO ------------====================================================*/
-    /*==============================================================================================================================*/
-
-    /*==============================================================================================================================*/
-    /*=======================================---------- SECTION THREE -----------====================================================*/
-    /*==============================================================================================================================*/
-    #three {
-        height: 100%;
-        width: 100%;
-        display: grid;
-        grid-template-rows: auto 56% auto;
-        grid-template-columns: auto 24.4% auto;
-        background-color: rgb(21, 21, 21);
-    }
-
-    #three_img_div {
-        height: auto;
-        width: 100%;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    #three_img {
-        height: auto;
-        width: 100%;
-    }
-
-    #three_img_small_div {
-        height: 100%;
-        width: 100%;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
-
-    #three_img_small {
-        height: 100%;
-        width: 100%;
-    }
-
-    /*===============================================================================================================================*/
-    /*=======================================---------- SECTION FOUR ------------====================================================*/
-    /*===============================================================================================================================*/
-
-    #four {
-        width: auto;
-        height: auto;
-        display: grid;
-        grid-template-rows: 30% 70%;
-        grid-template-columns: 5% 90% 5%;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: rgb(21, 21, 21);
-        padding-bottom: 2em;
-        margin-bottom: 1.5em;
-    }
-
-    #four_h1 {
-        color: rgb(173, 129, 86);
-        text-align: center;
-        font-family: "madlove2regular";
-        font-weight: 300;
-        font-size: 4em;
-        margin: auto;
-        width: 80%;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
-
-    #four_text_box_div {
-        width: 100%;
-        height: auto;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        grid-column-start: 2;
-        grid-column-end: 2;
-    }
-    #four_text {
-        color: rgb(225, 213, 186);
-        font-size: 1.6em;
-        letter-spacing: 2px;
-        word-spacing: 3px;
-        font-weight: 100;
-    }
-
-    #four_time_div {
-        width: 100%;
-        height: auto;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        display: grid;
-        grid-template-columns: auto 40% 40% auto;
-        grid-template-rows: 32% 32%;
-    }
-
-    #four_weekdays_div {
-    }
-
-    #four_weekdays {
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        color: rgb(173, 129, 86);
-        font-size: 1.3em;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        text-align: right;
-        margin-right: 0.5em;
-    }
-
-    #four_weekdays_time {
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        color: rgb(225, 213, 186);
-        font-size: 1.1em;
-        grid-column-start: 3;
-        grid-column-end: 3;
-        text-align: left;
-        margin-left: 0.5em;
-    }
-
-    #four_weekends_div {
-    }
-
-    #four_weekends {
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        color: rgb(173, 129, 86);
-        font-size: 1.3em;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        text-align: right;
-        margin-right: 0.5em;
-    }
-
-    #four_weekends_time {
-        letter-spacing: 2px;
-        word-spacing: 2px;
-        color: rgb(225, 213, 186);
-        font-size: 1.1em;
-        grid-column-start: 3;
-        grid-column-end: 3;
-        width: 100%;
-        text-align: left;
-        margin-left: 0.5em;
-    }
-    /*========================================================================================================================================*/
-    /*============================================---------- SECTION FIVE -----------=========================================================*/
-    /*========================================================================================================================================*/
-    #five {
-        background-color: rgb(173, 129, 86);
-        text-align: center;
-        display: grid;
-        width: 100%;
-    }
-    #five_img_div {
-        width: 100%;
-        height: 100%;
-    }
-
-    #five_img {
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
-    #five_text_div {
-        height: auto;
-        display: grid;
-        grid-template-rows: auto;
-        width: 85%;
-        margin: auto;
-    }
-
-    #five_h1 {
-        font-size: 4em;
-        font-family: "madlove2regular";
-        font-weight: 300;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        width: 100%;
-        margin: auto;
-        padding-top: 0.5em;
-    }
-
-    #five_p {
-        font-size: 1.2em;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        color: rgb(225, 213, 186);
-        font-weight: 500;
-        word-spacing: 4px;
-        letter-spacing: 4px;
-        padding-bottom: 1em;
-    }
-
-    #five_h4_div {
-        width: 100%;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        margin-bottom: 3em;
-    }
-
-    #five_h4 {
-        width: 55%;
-        margin: auto;
-        word-spacing: 2px;
-        letter-spacing: 2px;
-        border: solid 2px rgb(225, 213, 186);
-        padding-top: 0.75em;
-        padding-bottom: 0.75em;
-        text-align: top;
-        font-size: 1.1em;
-        font-weight: 500;
-    }
-    /*===============================================================================================================================*/
-    /*=======================================---------- SECTION SIX -------------====================================================*/
-    /*================================================================================================================================*/
-    #six {
-        background-color: rgb(173, 129, 86);
-        text-align: center;
-        display: grid;
-
-        width: 100%;
-    }
-    #six_img_div {
-        width: 100%;
-        height: 100%;
-    }
-
-    #six_img {
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
-
-    #six_text_div {
-        height: auto;
-        width: 85%;
-        margin: auto;
-        display: grid;
-        grid-template-rows: auto;
-    }
-
-    #six_h1 {
-        font-size: 4em;
-        font-family: "madlove2regular";
-        font-weight: 300;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        width: 100%;
-        margin: auto;
-        padding-top: 0.5em;
-    }
-
-    #six_p {
-        font-size: 1.2em;
-        grid-row-start: 2;
-        grid-row-end: 2;
-        color: rgb(225, 213, 186);
-        font-weight: 500;
-        word-spacing: 4px;
-        letter-spacing: 4px;
-        padding-bottom: 1em;
-    }
-
-    #six_h4_div {
-        width: 100%;
-        grid-row-start: 3;
-        grid-row-end: 3;
-        margin-bottom: 3em;
-    }
-
-    #six_h4 {
-        width: 55%;
-        margin: auto;
-        word-spacing: 2px;
-        letter-spacing: 2px;
-        border: solid 2px rgb(225, 213, 186);
-        padding-top: 0.75em;
-        padding-bottom: 0.75em;
-        text-align: top;
-        font-size: 1.1em;
-        font-weight: 500;
-    }
-    .side_anchors {
-        text-decoration: none;
-        color: black;
-        width: 100%;
-    }
-    /*================================================================================================================================*/
-    /*========================================----------- SECTION SEVEN ------------==================================================*/
-    /*===============================================================================================================================*/
-
-    #seven_socials_div {
-        background-color: rgb(22, 22, 22);
-    }
-
-         /*================================================================================================================================*/
-    /*====================================-----------MEDIA QUERY: MOBILE------------==================================================*/
-    /*================================================================================================================================*/
-    @media all and (max-width: 500px) {
-        #closer {
-            width: 12%;
-        }
-    }
-    /*==========================================================================================================================*/
-    /*========================================----------- MENU------------======================================================*/
-    /*==============================================================================================================================*/
-
-    .clicker {
-        position: absolute;
-    }
-
-    #container {
-        width: 100%;
-        height: 100%;
-    }
-
-    .mobile_menu a {
-        font-size: 2em;
-        font-weight: 100;
-        letter-spacing: 5px;
-        text-decoration: none;
-        color: black;
-        margin: auto;
-    }
-
-    #closer_div {
-        position: absolute;
-        z-index: 10;
-        height: auto;
-        right: 0;
-        top: 0;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    }
-
-    #closer {
-        width: 40%;
-        margin: auto;
-        margin-right: -1.25em;
-    }
-
-    #closer:hover {
-        cursor: pointer;
-    }
-
-    #divvest {
-        text-align: center;
-        margin: auto;
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-rows: auto;
-    }
-
-    #mobile_menu {
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }
-
-    #mobile_about {
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }
-
-    #mobile_gallery {
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }
-
-    #mobile_contact {
-        width: 100%;
-        height: auto;
-        margin: auto;
-    }
 }
