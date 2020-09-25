@@ -127,34 +127,32 @@
     #one {
         position: relative;
         width: 100%;
-        grid-template-rows: auto;
-        grid-template-columns: 75% 25%;
+        display: block;
         background-color: rgb(21, 21, 21);
     }
 
     #one_img_div {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        width: 100%;
+        width: 65%;
         height: auto;
+        margin-right: auto;
         text-align: left;
         margin-left: 1.5em;
         padding: 1.25em;
     }
 
     #one_img {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 
     #one_menu_div {
-        width: 30%;
-        height: 100%;
-        text-align: right;
-        margin-right: 1.5em;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        padding: 1.5em;
+        position: absolute;
+        width: 20%;
+        height: auto;
+        top: 0;
+        right: 0;
+        margin-top: 2em;
+        margin-right: 0em;
     }
 
     #one_menu_div:hover {
@@ -167,7 +165,7 @@
 
     #one_menu_img {
         height: auto;
-        width: 100%;
+        width: 45%;
     }
 }
 @media all and (max-width: 900px) {
@@ -193,9 +191,5 @@
     }
     #one_img {
         width: 100%;
-    }
-
-    #one_menu_div {
-        margin-right: 0.75em;
     }
 }
