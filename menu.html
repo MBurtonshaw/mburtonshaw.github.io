@@ -21,52 +21,77 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-                           <div id="container">
-        <div id="one">
-            <div id="one_img_div">
-                <a href="http://cloakanddaggercle.com"><img id="one_img" src="img/CD_Logo_Horizontal.png" /></a>
+        <div id="container">
+            <div id="one">
+                <div id="one_img_div">
+                    <a href="http://cloakanddaggercle.com"
+                        ><img id="one_img" src="img/CD_Logo_Horizontal.png"
+                    /></a>
+                </div>
+                <div id="one_menu_div">
+                    <ul id="one_menu">
+                        <li id="one_menu_first" class="one_menu">
+                            <a
+                                class="one_menu_a"
+                                target="_blank"
+                                href="menu.html"
+                                >MENU</a
+                            >
+                        </li>
+                        <li id="one_menu_second" class="one_menu">
+                            <a
+                                class="one_menu_a"
+                                target="_blank"
+                                href="videos.html"
+                                >VIDEOS</a
+                            >
+                        </li>
+                        <li id="one_menu_third" class="one_menu">
+                            <a
+                                class="one_menu_a"
+                                target="_blank"
+                                href="gallery.html"
+                                >GALLERY</a
+                            >
+                        </li>
+                        <li id="one_menu_fourth" class="one_menu">
+                            <a
+                                class="one_menu_a"
+                                target="_blank"
+                                href="contact.html"
+                                >CONTACT</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div id="one_menu_div">
-                <ul id="one_menu">
-                    <li id="one_menu_first" class="one_menu">
-                        <a class="one_menu_a" target="_blank" href="menu.html"
-                            >MENU</a
-                        >
-                    </li>
-                    <li id="one_menu_second" class="one_menu">
-                        <a class="one_menu_a" target="_blank" href="videos.html"
-                            >VIDEOS</a
-                        >
-                    </li>
-                    <li id="one_menu_third" class="one_menu">
-                        <a
-                            class="one_menu_a"
-                            target="_blank"
-                            href="gallery.html"
-                            >GALLERY</a
-                        >
-                    </li>
-                    <li id="one_menu_fourth" class="one_menu">
-                        <a
-                            class="one_menu_a"
-                            target="_blank"
-                            href="contact.html"
-                            >CONTACT</a
-                        >
-                    </li>
-                </ul>
+            <div id="two">
+                <div id="two_contacts_div">
+                    <h3 id="address" class="two_contacts">
+                        2399 W. 11TH ST. CLEVELAND, OH 44113 ·
+                    </h3>
+                    <h3 id="phone" class="two_contacts">
+                        <a href="tel:216-795-5657">(216) 795-5657</a>
+                    </h3>
+                </div>
             </div>
-        </div>
-        <div id="two">
-            <div id="two_contacts_div">
-                <h3 id="address" class="two_contacts">
-                    2399 W. 11TH ST. CLEVELAND, OH 44113 ·
-                </h3>
-                <h3 id="phone" class="two_contacts">
-                    <a href="tel:216-795-5657">(216) 795-5657</a>
-                </h3>
+            <div class="top-bar">
+                <button class="button" id="prev-page">
+                    &lt;
+                </button>
+                <span class="page-info">
+                    Page
+                    <span id="page-num"> </span>
+                    of
+                    <span id="page-count"> </span>
+                </span>
+                <button class="button" id="next-page">
+                    &gt;
+                </button>
             </div>
-        </div>
+            <div id="pdf-render-div">
+                <canvas id="pdf-render"></canvas>
+            </div>
             <div id="seven">
                 <div id="seven_socials_div">
                     <a
@@ -89,13 +114,15 @@
                     Sign up for our newsletter
                 </p>
                 <div class="klaviyo-form-RBSHP6"></div>
-            <script
-                async
-                type="text/javascript"
-                src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TMxbzu"
-            ></script>
+                <script
+                    async
+                    type="text/javascript"
+                    src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TMxbzu"
+                ></script>
             </div>
         </div>
         <script src="js/mobile.js"></script>
+        <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+        <script src="js/menu.js"></script>
     </body>
 </html>
