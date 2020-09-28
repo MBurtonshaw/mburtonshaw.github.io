@@ -15,7 +15,7 @@ body {
     margin: auto;
 }
 #video_div {
-    width: auto;
+    width: 99%;
     margin: auto;
     height: auto;
     border-right: 2px solid rgb(173, 129, 86);
@@ -23,8 +23,10 @@ body {
     border-bottom: 2px solid rgb(173, 129, 86);
 }
 .video {
-    padding-right: 0.25em;
-    padding-left: 0.25em;
+    padding-right: 0.15em;
+    padding-left: 0.15em;
+    width: auto;
+    height: auto;
 }
 #gallery_container {
     width: 100%;
