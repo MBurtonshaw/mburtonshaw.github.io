@@ -266,7 +266,7 @@ video_2 {
         width: 100%;
         margin: auto;
         display: grid;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 220px 220px;
         grid-template-columns: 100%;
         border: none;
     }
