@@ -15,7 +15,7 @@ body {
     margin: auto;
 }
 #video_div {
-    width: 99%;
+    width: auto;
     margin: auto;
     height: auto;
     border-right: 2px solid rgb(173, 129, 86);
