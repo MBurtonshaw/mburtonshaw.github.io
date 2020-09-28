@@ -194,9 +194,5 @@
     }
 }
 @media all and (max-width: 450px) {
-    #one_menu_div {
-        width: 40%;
-        margin-top: 1em;
-        margin-right: -2em;
-    }
+
 }
