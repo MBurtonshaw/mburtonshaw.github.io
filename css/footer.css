@@ -77,8 +77,8 @@
         margin: auto;
         text-align: center;
         display: grid;
-        grid-template-columns: auto 7em 2em 7em auto;
-        grid-template-rows: 7em auto auto;
+        grid-template-columns: auto 5em 2em 5em auto;
+        grid-template-rows: 5em auto auto;
         padding-top: 2em;
         padding-bottom: 1em;
     }
@@ -96,7 +96,7 @@
         grid-column-start: 4;
         grid-column-end: 4;
     }
-        #seven_facebook {
+    #seven_facebook {
         width: 100%;
         grid-row-start: 1;
         grid-row-end: 1;
