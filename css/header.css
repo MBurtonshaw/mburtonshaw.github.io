@@ -147,12 +147,12 @@
 
     #one_menu_div {
         position: absolute;
-        width: 20%;
+        width: 40%;
         height: auto;
         top: 0;
         right: 0;
-        margin-top: 2.1em;
-        margin-right: 0em;
+        margin-top: 1em;
+        margin-right: -2em;
     }
 
     #one_menu_div:hover {
@@ -192,4 +192,7 @@
     #one_img {
         width: 100%;
     }
+}
+@media all and (max-width: 450px) {
+
 }
