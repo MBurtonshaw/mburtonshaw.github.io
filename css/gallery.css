@@ -157,13 +157,12 @@ video_2 {
         display: grid;
         grid-template-rows: 280px 280px;
         grid-template-columns: 100%;
-        border: none;
+        border-bottom: 2px solid rgb(173, 129, 86);
     }
     .video {
         height: 100%;
         width: 100%;
         margin: auto;
-        border-bottom: 2px solid rgb(173, 129, 86);
     }
     #video_1 {
         grid-row-start: 1;
@@ -263,6 +262,14 @@ video_2 {
 }
 
 @media all and (max-width: 700px) {
+    #video_div {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 250px 250px;
+        grid-template-columns: 100%;
+        border: none;
+    }
     .big_pics {
         width: 300px;
         height: auto;
