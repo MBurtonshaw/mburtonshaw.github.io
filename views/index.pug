@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Hey, Potential Employers!
+
+    p My name is Matthew Burtonshaw and I'm a full-stack JavaScript student at TeamTreehouse. This portfolio is a collection of some projects I've worked on so far as I've been becoming a programmer. The portfolio itself could be viewed as a project demonstrating knowledge of server-side coding, Pug templates, and scalability. Click on a project thumbnail to interact with any of my apps:
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+        each val in projects
+            .cell
+              a(href='/projects/' + val.id)
+                img.thumbnail(src= val.image_urls[0], alt='Thumbnail ' + val.project_name height="250px")
+                h5 #{val.project_name}
+            
+
